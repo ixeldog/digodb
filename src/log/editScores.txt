@@ -1,0 +1,301 @@
+2013-04-29 18:23:53 - DEBUG --> $_REQUEST[scoreEditSelectHole100] = 8226 
+2013-04-29 18:23:53 - DEBUG --> $_REQUEST[scoreEditSelectScore100] = 5 
+2013-04-29 18:23:53 - DEBUG --> $_REQUEST[scoreEditSelectHole101] = NULL 
+2013-04-29 18:23:53 - DEBUG --> $_REQUEST[scoreEditSelectScore101] = delete 
+2013-04-29 18:23:53 - DEBUG --> $_REQUEST[scoreEditSelectHole102] = NULL 
+2013-04-29 18:23:53 - DEBUG --> $_REQUEST[scoreEditSelectScore102] = delete 
+2013-04-29 18:23:53 - DEBUG --> $_REQUEST[PHPSESSID] = dodsq8vvh2696fg9a5qpadhud0 
+2013-04-29 18:23:53 - DEBUG --> $_SESSION[currentUserLoginName] = TestUser 
+2013-04-29 18:23:53 - DEBUG --> $_SESSION[currentUserID] = 100 
+2013-04-29 18:23:53 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-04-29 18:23:53 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-04-29 18:23:53 - DEBUG --> $_SESSION[selectedDate] = 4/29/2013 
+2013-04-29 18:23:53 - DEBUG --> $_SESSION[selectedCourse] = 0 
+2013-04-29 18:23:53 - DEBUG --> 
+ 
+2013-04-29 18:23:59 - DEBUG --> $_REQUEST[scoreEditSelectHole100] = 8229 
+2013-04-29 18:23:59 - DEBUG --> $_REQUEST[scoreEditSelectScore100] = 4 
+2013-04-29 18:23:59 - DEBUG --> $_REQUEST[scoreEditSelectHole101] = NULL 
+2013-04-29 18:23:59 - DEBUG --> $_REQUEST[scoreEditSelectScore101] = delete 
+2013-04-29 18:23:59 - DEBUG --> $_REQUEST[scoreEditSelectHole102] = NULL 
+2013-04-29 18:23:59 - DEBUG --> $_REQUEST[scoreEditSelectScore102] = delete 
+2013-04-29 18:23:59 - DEBUG --> $_REQUEST[PHPSESSID] = dodsq8vvh2696fg9a5qpadhud0 
+2013-04-29 18:23:59 - DEBUG --> $_SESSION[currentUserLoginName] = TestUser 
+2013-04-29 18:23:59 - DEBUG --> $_SESSION[currentUserID] = 100 
+2013-04-29 18:23:59 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-04-29 18:23:59 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-04-29 18:23:59 - DEBUG --> $_SESSION[selectedDate] = 4/29/2013 
+2013-04-29 18:23:59 - DEBUG --> $_SESSION[selectedCourse] = 0 
+2013-04-29 18:23:59 - DEBUG --> 
+ 
+2013-04-29 21:07:01 - DEBUG --> $_REQUEST[scoreEditSelectHole100] = 8256 
+2013-04-29 21:07:01 - DEBUG --> $_REQUEST[scoreEditSelectScore100] = delete 
+2013-04-29 21:07:01 - DEBUG --> $_REQUEST[PHPSESSID] = elrl08a38jfp0udufeih4u4d50 
+2013-04-29 21:07:01 - DEBUG --> $_SESSION[currentUserLoginName] = TestUser 
+2013-04-29 21:07:01 - DEBUG --> $_SESSION[currentUserID] = 100 
+2013-04-29 21:07:01 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-04-29 21:07:01 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-04-29 21:07:01 - DEBUG --> $_SESSION[selectedDate] = 4/29/2013 
+2013-04-29 21:07:01 - DEBUG --> $_SESSION[selectedCourse] = 5 
+2013-04-29 21:07:01 - DEBUG --> 
+ 
+2013-04-29 21:07:20 - DEBUG --> $_REQUEST[scoreEditSelectHole100] = 8253 
+2013-04-29 21:07:20 - DEBUG --> $_REQUEST[scoreEditSelectScore100] = _pin_left 
+2013-04-29 21:07:20 - DEBUG --> $_REQUEST[PHPSESSID] = elrl08a38jfp0udufeih4u4d50 
+2013-04-29 21:07:20 - DEBUG --> $_SESSION[currentUserLoginName] = TestUser 
+2013-04-29 21:07:20 - DEBUG --> $_SESSION[currentUserID] = 100 
+2013-04-29 21:07:20 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-04-29 21:07:20 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-04-29 21:07:20 - DEBUG --> $_SESSION[selectedDate] = 4/29/2013 
+2013-04-29 21:07:20 - DEBUG --> $_SESSION[selectedCourse] = 5 
+2013-04-29 21:07:20 - DEBUG --> ERROR updating score id 8253 newScore = _pin_left 
+2013-04-29 21:07:20 - DEBUG --> 
+ 
+2013-04-30 17:36:13 - DEBUG --> $_REQUEST[scoreEditSelectHole100] = 8258 
+2013-04-30 17:36:13 - DEBUG --> $_REQUEST[scoreEditSelectScore100] = delete 
+2013-04-30 17:36:13 - DEBUG --> $_REQUEST[scoreEditSelectHole101] = NULL 
+2013-04-30 17:36:13 - DEBUG --> $_REQUEST[scoreEditSelectScore101] = delete 
+2013-04-30 17:36:13 - DEBUG --> $_REQUEST[PHPSESSID] = elrl08a38jfp0udufeih4u4d50 
+2013-04-30 17:36:13 - DEBUG --> $_SESSION[currentUserLoginName] = TestUser 
+2013-04-30 17:36:13 - DEBUG --> $_SESSION[currentUserID] = 100 
+2013-04-30 17:36:13 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-04-30 17:36:13 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-04-30 17:36:13 - DEBUG --> $_SESSION[selectedDate] = 4/30/2013 
+2013-04-30 17:36:13 - DEBUG --> $_SESSION[selectedCourse] = 5 
+2013-04-30 17:36:13 - DEBUG --> 
+ 
+2013-04-30 17:36:38 - DEBUG --> $_REQUEST[scoreEditSelectHole100] = NULL 
+2013-04-30 17:36:38 - DEBUG --> $_REQUEST[scoreEditSelectScore100] = delete 
+2013-04-30 17:36:38 - DEBUG --> $_REQUEST[scoreEditSelectHole101] = 8257 
+2013-04-30 17:36:38 - DEBUG --> $_REQUEST[scoreEditSelectScore101] = delete 
+2013-04-30 17:36:38 - DEBUG --> $_REQUEST[PHPSESSID] = elrl08a38jfp0udufeih4u4d50 
+2013-04-30 17:36:38 - DEBUG --> $_SESSION[currentUserLoginName] = TestUser 
+2013-04-30 17:36:38 - DEBUG --> $_SESSION[currentUserID] = 100 
+2013-04-30 17:36:38 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-04-30 17:36:38 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-04-30 17:36:38 - DEBUG --> $_SESSION[selectedDate] = 04/30/2013 
+2013-04-30 17:36:38 - DEBUG --> $_SESSION[selectedCourse] = 5 
+2013-04-30 17:36:38 - DEBUG --> 
+ 
+2013-05-13 7:13:00 - DEBUG --> $_REQUEST[scoreEditSelectHole117] = 8174 
+2013-05-13 7:13:00 - DEBUG --> $_REQUEST[scoreEditSelectScore117] = _tee_4 
+2013-05-13 7:13:00 - DEBUG --> $_REQUEST[PHPSESSID] = 6alt8qgvavfm2dge2rbnak88s7 
+2013-05-13 7:13:00 - DEBUG --> $_SESSION[currentUserID] = 117 
+2013-05-13 7:13:00 - DEBUG --> $_SESSION[currentUserLoginName] = anhyzer20 
+2013-05-13 7:13:00 - DEBUG --> $_SESSION[selectedCourse] = 1 
+2013-05-13 7:13:00 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-05-13 7:13:00 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-05-13 7:13:00 - DEBUG --> $_SESSION[selectedDate] = 5/13/2013 
+2013-05-13 7:13:00 - DEBUG --> 
+ 
+2013-05-13 7:13:26 - DEBUG --> $_REQUEST[scoreEditSelectHole117] = 8174 
+2013-05-13 7:13:26 - DEBUG --> $_REQUEST[scoreEditSelectScore117] = delete 
+2013-05-13 7:13:26 - DEBUG --> $_REQUEST[PHPSESSID] = 6alt8qgvavfm2dge2rbnak88s7 
+2013-05-13 7:13:26 - DEBUG --> $_SESSION[currentUserID] = 117 
+2013-05-13 7:13:26 - DEBUG --> $_SESSION[currentUserLoginName] = anhyzer20 
+2013-05-13 7:13:26 - DEBUG --> $_SESSION[selectedCourse] = 1 
+2013-05-13 7:13:26 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-05-13 7:13:26 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-05-13 7:13:26 - DEBUG --> $_SESSION[selectedDate] = 5/13/2013 
+2013-05-13 7:13:26 - DEBUG --> 
+ 
+2013-05-17 13:21:44 - DEBUG --> $_REQUEST[scoreEditSelectHole28] = 8193 
+2013-05-17 13:21:44 - DEBUG --> $_REQUEST[scoreEditSelectScore28] = 4 
+2013-05-17 13:21:44 - DEBUG --> $_REQUEST[PHPSESSID] = e4luaqup7ninl38kso682ptes6 
+2013-05-17 13:21:44 - DEBUG --> $_SESSION[currentUserLoginName] = practice 
+2013-05-17 13:21:44 - DEBUG --> $_SESSION[currentUserID] = 28 
+2013-05-17 13:21:44 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-05-17 13:21:44 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-05-17 13:21:44 - DEBUG --> $_SESSION[selectedDate] = 5/17/2013 
+2013-05-17 13:21:44 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-05-17 13:21:44 - DEBUG --> $_SESSION[selectedCourse] = 0 
+2013-05-17 13:21:44 - DEBUG --> 
+ 
+2013-05-17 14:13:08 - DEBUG --> $_REQUEST[scoreEditSelectHole28] = 8209 
+2013-05-17 14:13:08 - DEBUG --> $_REQUEST[scoreEditSelectScore28] = 4 
+2013-05-17 14:13:08 - DEBUG --> $_REQUEST[PHPSESSID] = e4luaqup7ninl38kso682ptes6 
+2013-05-17 14:13:08 - DEBUG --> $_SESSION[currentUserLoginName] = practice 
+2013-05-17 14:13:08 - DEBUG --> $_SESSION[currentUserID] = 28 
+2013-05-17 14:13:08 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-05-17 14:13:08 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-05-17 14:13:08 - DEBUG --> $_SESSION[selectedDate] = 5/17/2013 
+2013-05-17 14:13:08 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-05-17 14:13:08 - DEBUG --> $_SESSION[selectedCourse] = 0 
+2013-05-17 14:13:08 - DEBUG --> 
+ 
+2013-05-18 12:23:04 - DEBUG --> $_REQUEST[scoreEditSelectHole28] = 8221 
+2013-05-18 12:23:04 - DEBUG --> $_REQUEST[scoreEditSelectScore28] = 3 
+2013-05-18 12:23:04 - DEBUG --> $_REQUEST[PHPSESSID] = e4luaqup7ninl38kso682ptes6 
+2013-05-18 12:23:04 - DEBUG --> $_SESSION[currentUserLoginName] = practice 
+2013-05-18 12:23:04 - DEBUG --> $_SESSION[currentUserID] = 28 
+2013-05-18 12:23:04 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-05-18 12:23:04 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-05-18 12:23:04 - DEBUG --> $_SESSION[selectedDate] = 5/18/2013 
+2013-05-18 12:23:04 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-05-18 12:23:04 - DEBUG --> $_SESSION[selectedCourse] = 0 
+2013-05-18 12:23:04 - DEBUG --> 
+ 
+2013-05-26 9:20:06 - DEBUG --> $_REQUEST[scoreEditSelectHole28] = 8247 
+2013-05-26 9:20:06 - DEBUG --> $_REQUEST[scoreEditSelectScore28] = 4 
+2013-05-26 9:20:06 - DEBUG --> $_REQUEST[PHPSESSID] = e4luaqup7ninl38kso682ptes6 
+2013-05-26 9:20:06 - DEBUG --> $_SESSION[currentUserLoginName] = practice 
+2013-05-26 9:20:06 - DEBUG --> $_SESSION[currentUserID] = 28 
+2013-05-26 9:20:06 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-05-26 9:20:06 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-05-26 9:20:06 - DEBUG --> $_SESSION[selectedDate] = 5/26/2013 
+2013-05-26 9:20:06 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-05-26 9:20:06 - DEBUG --> $_SESSION[selectedCourse] = 9 
+2013-05-26 9:20:06 - DEBUG --> 
+ 
+2013-05-26 12:52:05 - DEBUG --> $_REQUEST[scoreEditSelectHole28] = 8248 
+2013-05-26 12:52:05 - DEBUG --> $_REQUEST[scoreEditSelectScore28] = delete 
+2013-05-26 12:52:05 - DEBUG --> $_REQUEST[PHPSESSID] = e4luaqup7ninl38kso682ptes6 
+2013-05-26 12:52:05 - DEBUG --> $_SESSION[currentUserLoginName] = practice 
+2013-05-26 12:52:05 - DEBUG --> $_SESSION[currentUserID] = 28 
+2013-05-26 12:52:05 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-05-26 12:52:05 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-05-26 12:52:05 - DEBUG --> $_SESSION[selectedDate] = 5/26/2013 
+2013-05-26 12:52:05 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-05-26 12:52:05 - DEBUG --> $_SESSION[selectedCourse] = 9 
+2013-05-26 12:52:05 - DEBUG --> 
+ 
+2013-05-26 12:52:13 - DEBUG --> $_REQUEST[scoreEditSelectHole28] = 8247 
+2013-05-26 12:52:13 - DEBUG --> $_REQUEST[scoreEditSelectScore28] = delete 
+2013-05-26 12:52:13 - DEBUG --> $_REQUEST[PHPSESSID] = e4luaqup7ninl38kso682ptes6 
+2013-05-26 12:52:13 - DEBUG --> $_SESSION[currentUserLoginName] = practice 
+2013-05-26 12:52:13 - DEBUG --> $_SESSION[currentUserID] = 28 
+2013-05-26 12:52:13 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-05-26 12:52:13 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-05-26 12:52:13 - DEBUG --> $_SESSION[selectedDate] = 5/26/2013 
+2013-05-26 12:52:13 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-05-26 12:52:13 - DEBUG --> $_SESSION[selectedCourse] = 9 
+2013-05-26 12:52:13 - DEBUG --> 
+ 
+2013-06-14 14:36:06 - DEBUG --> $_REQUEST[scoreEditSelectHole1] = 8269 
+2013-06-14 14:36:06 - DEBUG --> $_REQUEST[scoreEditSelectScore1] = 2 
+2013-06-14 14:36:06 - DEBUG --> $_REQUEST[scoreEditSelectHole2] = NULL 
+2013-06-14 14:36:06 - DEBUG --> $_REQUEST[scoreEditSelectScore2] = delete 
+2013-06-14 14:36:06 - DEBUG --> $_REQUEST[scoreEditSelectHole3] = NULL 
+2013-06-14 14:36:06 - DEBUG --> $_REQUEST[scoreEditSelectScore3] = delete 
+2013-06-14 14:36:06 - DEBUG --> $_REQUEST[PHPSESSID] = ihi2dsmc9d0kt0mbi3mpn9qh93 
+2013-06-14 14:36:06 - DEBUG --> $_SESSION[currentUserLoginName] = ixeldog 
+2013-06-14 14:36:06 - DEBUG --> $_SESSION[currentUserID] = 1 
+2013-06-14 14:36:06 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-06-14 14:36:06 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-06-14 14:36:06 - DEBUG --> $_SESSION[selectedDate] = 6/14/2013 
+2013-06-14 14:36:06 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-06-14 14:36:06 - DEBUG --> $_SESSION[selectedCourse] = 0 
+2013-06-14 14:36:06 - DEBUG --> 
+ 
+2013-06-22 13:13:18 - DEBUG --> $_REQUEST[scoreEditSelectHole28] = 8343 
+2013-06-22 13:13:18 - DEBUG --> $_REQUEST[scoreEditSelectScore28] = 3 
+2013-06-22 13:13:18 - DEBUG --> $_REQUEST[PHPSESSID] = 7di3sj4b562bqgu3eefpv7cri6 
+2013-06-22 13:13:18 - DEBUG --> $_SESSION[currentUserLoginName] = practice 
+2013-06-22 13:13:18 - DEBUG --> $_SESSION[currentUserID] = 28 
+2013-06-22 13:13:18 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-06-22 13:13:18 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-06-22 13:13:18 - DEBUG --> $_SESSION[selectedDate] = 6/22/2013 
+2013-06-22 13:13:18 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-06-22 13:13:18 - DEBUG --> $_SESSION[selectedCourse] = 4 
+2013-06-22 13:13:18 - DEBUG --> 
+ 
+2013-06-23 18:04:26 - DEBUG --> $_REQUEST[scoreEditSelectHole1] = NULL 
+2013-06-23 18:04:26 - DEBUG --> $_REQUEST[scoreEditSelectScore1] = delete 
+2013-06-23 18:04:26 - DEBUG --> $_REQUEST[scoreEditSelectHole2] = 8383 
+2013-06-23 18:04:26 - DEBUG --> $_REQUEST[scoreEditSelectScore2] = 4 
+2013-06-23 18:04:26 - DEBUG --> $_REQUEST[scoreEditSelectHole3] = NULL 
+2013-06-23 18:04:26 - DEBUG --> $_REQUEST[scoreEditSelectScore3] = delete 
+2013-06-23 18:04:26 - DEBUG --> $_REQUEST[PHPSESSID] = 7di3sj4b562bqgu3eefpv7cri6 
+2013-06-23 18:04:26 - DEBUG --> $_SESSION[currentUserLoginName] = ixeldog 
+2013-06-23 18:04:26 - DEBUG --> $_SESSION[currentUserID] = 1 
+2013-06-23 18:04:26 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-06-23 18:04:26 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-06-23 18:04:26 - DEBUG --> $_SESSION[selectedDate] = 6/23/2013 
+2013-06-23 18:04:26 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-06-23 18:04:26 - DEBUG --> $_SESSION[selectedCourse] = 1 
+2013-06-23 18:04:26 - DEBUG --> 
+ 
+2013-06-23 18:07:55 - DEBUG --> $_REQUEST[scoreEditSelectHole1] = NULL 
+2013-06-23 18:07:55 - DEBUG --> $_REQUEST[scoreEditSelectScore1] = delete 
+2013-06-23 18:07:55 - DEBUG --> $_REQUEST[scoreEditSelectHole2] = NULL 
+2013-06-23 18:07:55 - DEBUG --> $_REQUEST[scoreEditSelectScore2] = delete 
+2013-06-23 18:07:55 - DEBUG --> $_REQUEST[scoreEditSelectHole3] = 8387 
+2013-06-23 18:07:55 - DEBUG --> $_REQUEST[scoreEditSelectScore3] = 3 
+2013-06-23 18:07:55 - DEBUG --> $_REQUEST[PHPSESSID] = 7di3sj4b562bqgu3eefpv7cri6 
+2013-06-23 18:07:55 - DEBUG --> $_SESSION[currentUserLoginName] = ixeldog 
+2013-06-23 18:07:55 - DEBUG --> $_SESSION[currentUserID] = 1 
+2013-06-23 18:07:55 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-06-23 18:07:55 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-06-23 18:07:55 - DEBUG --> $_SESSION[selectedDate] = 6/23/2013 
+2013-06-23 18:07:55 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-06-23 18:07:55 - DEBUG --> $_SESSION[selectedCourse] = 1 
+2013-06-23 18:07:55 - DEBUG --> 
+ 
+2013-06-23 18:08:05 - DEBUG --> $_REQUEST[scoreEditSelectHole1] = 8388 
+2013-06-23 18:08:05 - DEBUG --> $_REQUEST[scoreEditSelectScore1] = 2 
+2013-06-23 18:08:05 - DEBUG --> $_REQUEST[scoreEditSelectHole2] = NULL 
+2013-06-23 18:08:05 - DEBUG --> $_REQUEST[scoreEditSelectScore2] = delete 
+2013-06-23 18:08:05 - DEBUG --> $_REQUEST[scoreEditSelectHole3] = NULL 
+2013-06-23 18:08:05 - DEBUG --> $_REQUEST[scoreEditSelectScore3] = delete 
+2013-06-23 18:08:05 - DEBUG --> $_REQUEST[PHPSESSID] = 7di3sj4b562bqgu3eefpv7cri6 
+2013-06-23 18:08:05 - DEBUG --> $_SESSION[currentUserLoginName] = ixeldog 
+2013-06-23 18:08:05 - DEBUG --> $_SESSION[currentUserID] = 1 
+2013-06-23 18:08:05 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-06-23 18:08:05 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-06-23 18:08:05 - DEBUG --> $_SESSION[selectedDate] = 6/23/2013 
+2013-06-23 18:08:05 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-06-23 18:08:05 - DEBUG --> $_SESSION[selectedCourse] = 1 
+2013-06-23 18:08:05 - DEBUG --> 
+ 
+2013-06-28 14:40:08 - DEBUG --> $_REQUEST[scoreEditSelectHole28] = 8399 
+2013-06-28 14:40:08 - DEBUG --> $_REQUEST[scoreEditSelectScore28] = 5 
+2013-06-28 14:40:08 - DEBUG --> $_REQUEST[PHPSESSID] = 21jtgdieda2no5iboanae32767 
+2013-06-28 14:40:08 - DEBUG --> $_SESSION[currentUserLoginName] = practice 
+2013-06-28 14:40:08 - DEBUG --> $_SESSION[currentUserID] = 28 
+2013-06-28 14:40:08 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-06-28 14:40:08 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-06-28 14:40:08 - DEBUG --> $_SESSION[selectedDate] = 6/28/2013 
+2013-06-28 14:40:08 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-06-28 14:40:08 - DEBUG --> $_SESSION[selectedCourse] = 8 
+2013-06-28 14:40:08 - DEBUG --> 
+ 
+2013-07-17 15:11:10 - DEBUG --> $_REQUEST[scoreEditSelectHole28] = 8410 
+2013-07-17 15:11:10 - DEBUG --> $_REQUEST[scoreEditSelectScore28] = delete 
+2013-07-17 15:11:10 - DEBUG --> $_REQUEST[PHPSESSID] = ubp8gnjek4c0oe591a9gu87ar4 
+2013-07-17 15:11:10 - DEBUG --> $_SESSION[currentUserLoginName] = practice 
+2013-07-17 15:11:10 - DEBUG --> $_SESSION[currentUserID] = 28 
+2013-07-17 15:11:10 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-07-17 15:11:10 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-07-17 15:11:10 - DEBUG --> $_SESSION[selectedDate] = 06/28/2013 
+2013-07-17 15:11:10 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-07-17 15:11:10 - DEBUG --> $_SESSION[selectedCourse] = 8 
+2013-07-17 15:11:10 - DEBUG --> 
+ 
+2013-07-17 15:12:50 - DEBUG --> $_REQUEST[scoreEditSelectHole28] = 8412 
+2013-07-17 15:12:50 - DEBUG --> $_REQUEST[scoreEditSelectScore28] = delete 
+2013-07-17 15:12:50 - DEBUG --> $_REQUEST[PHPSESSID] = ubp8gnjek4c0oe591a9gu87ar4 
+2013-07-17 15:12:50 - DEBUG --> $_SESSION[currentUserLoginName] = practice 
+2013-07-17 15:12:50 - DEBUG --> $_SESSION[currentUserID] = 28 
+2013-07-17 15:12:50 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-07-17 15:12:50 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-07-17 15:12:50 - DEBUG --> $_SESSION[selectedDate] = 06/28/2013 
+2013-07-17 15:12:50 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-07-17 15:12:50 - DEBUG --> $_SESSION[selectedCourse] = 8 
+2013-07-17 15:12:50 - DEBUG --> 
+ 
+2013-09-20 16:06:18 - DEBUG --> $_REQUEST[scoreEditSelectHole1] = NULL 
+2013-09-20 16:06:18 - DEBUG --> $_REQUEST[scoreEditSelectScore1] = delete 
+2013-09-20 16:06:18 - DEBUG --> $_REQUEST[scoreEditSelectHole2] = 8550 
+2013-09-20 16:06:18 - DEBUG --> $_REQUEST[scoreEditSelectScore2] = 6 
+2013-09-20 16:06:18 - DEBUG --> $_REQUEST[scoreEditSelectHole3] = NULL 
+2013-09-20 16:06:18 - DEBUG --> $_REQUEST[scoreEditSelectScore3] = delete 
+2013-09-20 16:06:18 - DEBUG --> $_REQUEST[PHPSESSID] = cee8n207mq4703sl4eao4dslk4 
+2013-09-20 16:06:18 - DEBUG --> $_SESSION[currentUserLoginName] = ixeldog 
+2013-09-20 16:06:18 - DEBUG --> $_SESSION[currentUserID] = 1 
+2013-09-20 16:06:18 - DEBUG --> $_SESSION[selectedPlayers] = Array 
+2013-09-20 16:06:18 - DEBUG --> $_SESSION[playerIdToNameMap] = Array 
+2013-09-20 16:06:18 - DEBUG --> $_SESSION[selectedDate] = 9/20/2013 
+2013-09-20 16:06:18 - DEBUG --> $_SESSION[jsEnabled] = 1 
+2013-09-20 16:06:18 - DEBUG --> $_SESSION[selectedCourse] = 0 
+2013-09-20 16:06:18 - DEBUG --> 
+ 

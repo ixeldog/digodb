@@ -1,0 +1,112 @@
+2013-04-25 19:34:41 - DEBUG --> successfully connected to DB 
+2013-04-25 19:34:41 - DEBUG --> DBConnection.query: query=update player set email = 'ixeldog@yahoo.com', question = 'hello', answer = 'world' where player_id = 1 
+2013-04-25 19:35:37 - DEBUG --> successfully connected to DB 
+2013-04-25 19:35:37 - DEBUG --> DBConnection.query: query=select true from player where player_login_name = 'ixeldog' and sha1('539') = player_password 
+2013-04-25 19:35:37 - DEBUG --> DBConnection.query: query=update player set player_password = sha1('godleski') where player_login_name = 'ixeldog' 
+2013-04-25 19:35:37 - DEBUG --> DBConnection.query: query=update player set email = 'ixeldog@yahoo.com', question = 'hello', answer = 'world' where player_id = 1 
+2013-04-25 19:35:44 - DEBUG --> successfully connected to DB 
+2013-04-25 19:36:14 - DEBUG --> successfully connected to DB 
+2013-04-25 19:36:35 - DEBUG --> successfully connected to DB 
+2013-04-25 19:37:06 - DEBUG --> successfully connected to DB 
+2013-04-25 19:38:13 - DEBUG --> successfully connected to DB 
+2013-04-25 19:38:13 - DEBUG --> DBConnection.query: query=update player set email = 'ixeldog@yahoo.com', question = 'This is my question', answer = 'aslkdfjslkfjs' where player_id = 1 
+2013-04-29 20:05:15 - DEBUG --> successfully connected to DB 
+2013-04-30 7:38:16 - DEBUG --> successfully connected to DB 
+2013-04-30 7:38:16 - DEBUG --> DBConnection.query: query=select player_id from player where player_login_name = 'Friend1' and player_id not in (select friend_id from player_to_friend_map where player_id = '1') 
+2013-04-30 7:38:55 - DEBUG --> successfully connected to DB 
+2013-04-30 7:38:55 - DEBUG --> DBConnection.query: query=select player_id from player where player_login_name = 'TestUser1' and player_id not in (select friend_id from player_to_friend_map where player_id = '1') 
+2013-04-30 7:39:06 - DEBUG --> successfully connected to DB 
+2013-04-30 7:39:06 - DEBUG --> DBConnection.query: query=select player_id from player where player_login_name = 'TestUser' and player_id not in (select friend_id from player_to_friend_map where player_id = '1') 
+2013-04-30 7:39:06 - DEBUG --> DBConnection.query: query=insert into player_to_friend_map (player_id, friend_id) values(1, 100) 
+2013-04-30 7:39:20 - DEBUG --> successfully connected to DB 
+2013-04-30 7:39:20 - DEBUG --> DBConnection.query: query=delete from p using player_to_friend_map as p where p.player_id = 1 and (p.friend_id = '100') 
+2013-05-13 7:08:31 - DEBUG --> successfully connected to DB 
+2013-05-13 7:08:31 - DEBUG --> DBConnection.query: query=update player set email = 'mitchellsummers1@gmail.com', question = 'Where were you born?', answer = 'Arkansas' where player_id = 117 
+2020-10-20 5:17:00 - DEBUG --> successfully connected to DB 
+2020-10-20 5:17:00 - DEBUG --> DBConnection.query: query=update player set email = 'regglartyfy@gmail.com', question = 'xNYszchIJwPZSG', answer = 'wJrVdgNMy' where player_id = 100 
+2020-10-20 5:17:02 - DEBUG --> successfully connected to DB 
+2020-10-20 5:17:02 - DEBUG --> DBConnection.query: query=update player set email = 'regglartyfy@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2020-11-02 22:25:53 - DEBUG --> successfully connected to DB 
+2020-11-02 22:25:53 - DEBUG --> DBConnection.query: query=update player set email = 'nikutamagamari@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2020-11-02 22:25:54 - DEBUG --> successfully connected to DB 
+2020-11-02 22:25:54 - DEBUG --> DBConnection.query: query=update player set email = 'regglartyfy@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2020-12-05 2:33:16 - DEBUG --> successfully connected to DB 
+2020-12-05 2:33:16 - DEBUG --> DBConnection.query: query=update player set email = 'segentpaco528@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2020-12-05 2:33:17 - DEBUG --> successfully connected to DB 
+2020-12-05 2:33:17 - DEBUG --> DBConnection.query: query=update player set email = 'regglartyfy@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2020-12-20 8:29:48 - DEBUG --> successfully connected to DB 
+2020-12-20 8:29:48 - DEBUG --> DBConnection.query: query=update player set email = 'mg7598791@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2020-12-20 8:29:48 - DEBUG --> successfully connected to DB 
+2020-12-20 8:29:48 - DEBUG --> DBConnection.query: query=update player set email = 'regglartyfy@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-01-04 22:11:23 - DEBUG --> successfully connected to DB 
+2021-01-04 22:11:23 - DEBUG --> DBConnection.query: query=update player set email = 'robertpreston1372@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-01-04 22:11:24 - DEBUG --> successfully connected to DB 
+2021-01-04 22:11:24 - DEBUG --> DBConnection.query: query=update player set email = 'regglartyfy@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-01-19 4:32:22 - DEBUG --> successfully connected to DB 
+2021-01-19 4:32:22 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-02-16 2:00:07 - DEBUG --> successfully connected to DB 
+2021-02-16 2:00:07 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-03-25 17:16:15 - DEBUG --> successfully connected to DB 
+2021-03-25 17:16:15 - DEBUG --> DBConnection.query: query=update player set email = 'michaelperry2927@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-03-25 17:16:16 - DEBUG --> successfully connected to DB 
+2021-03-25 17:16:16 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-04-05 1:07:16 - DEBUG --> successfully connected to DB 
+2021-04-05 1:07:16 - DEBUG --> DBConnection.query: query=update player set email = 'deverseasjo@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-04-05 1:07:17 - DEBUG --> successfully connected to DB 
+2021-04-05 1:07:17 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-05-18 21:26:39 - DEBUG --> successfully connected to DB 
+2021-05-18 21:26:39 - DEBUG --> DBConnection.query: query=update player set email = 'witormintbg@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-05-18 21:26:41 - DEBUG --> successfully connected to DB 
+2021-05-18 21:26:41 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-06-12 22:45:36 - DEBUG --> successfully connected to DB 
+2021-06-12 22:45:36 - DEBUG --> DBConnection.query: query=update player set email = 'wilsoncamron068@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-06-12 22:45:37 - DEBUG --> successfully connected to DB 
+2021-06-12 22:45:37 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-06-29 2:46:24 - DEBUG --> successfully connected to DB 
+2021-06-29 2:46:24 - DEBUG --> DBConnection.query: query=update player set email = 'manzerangella@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-06-29 2:46:26 - DEBUG --> successfully connected to DB 
+2021-06-29 2:46:26 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-07-07 21:22:03 - DEBUG --> successfully connected to DB 
+2021-07-07 21:22:03 - DEBUG --> DBConnection.query: query=update player set email = 'valeriya.budanova905@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-07-07 21:22:04 - DEBUG --> successfully connected to DB 
+2021-07-07 21:22:04 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-08-06 13:12:54 - DEBUG --> successfully connected to DB 
+2021-08-06 13:12:54 - DEBUG --> DBConnection.query: query=update player set email = 'judithmontgomery6308@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-08-06 13:12:55 - DEBUG --> successfully connected to DB 
+2021-08-06 13:12:55 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-08-21 13:46:26 - DEBUG --> successfully connected to DB 
+2021-08-21 13:46:26 - DEBUG --> DBConnection.query: query=update player set email = 'richardroberts5680@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-08-21 13:46:27 - DEBUG --> successfully connected to DB 
+2021-08-21 13:46:27 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-08-29 9:01:58 - DEBUG --> successfully connected to DB 
+2021-08-29 9:01:58 - DEBUG --> DBConnection.query: query=update player set email = 'nashvanessa018@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-08-29 9:02:00 - DEBUG --> successfully connected to DB 
+2021-08-29 9:02:00 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-09-26 21:22:10 - DEBUG --> successfully connected to DB 
+2021-09-26 21:22:10 - DEBUG --> DBConnection.query: query=update player set email = 'butchmurvynj186xeocab@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-09-26 21:22:11 - DEBUG --> successfully connected to DB 
+2021-09-26 21:22:11 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-11-09 5:37:08 - DEBUG --> successfully connected to DB 
+2021-11-09 5:37:08 - DEBUG --> DBConnection.query: query=update player set email = 'kbaldwin766@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-11-09 5:37:09 - DEBUG --> successfully connected to DB 
+2021-11-09 5:37:09 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-12-05 17:42:20 - DEBUG --> successfully connected to DB 
+2021-12-05 17:42:20 - DEBUG --> DBConnection.query: query=update player set email = 'davidgray436694@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-12-05 17:42:21 - DEBUG --> successfully connected to DB 
+2021-12-05 17:42:21 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-12-23 11:00:50 - DEBUG --> successfully connected to DB 
+2021-12-23 11:01:12 - DEBUG --> DBConnection.query: query=update player set email = 'bernardoleas37213@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2021-12-23 11:01:13 - DEBUG --> successfully connected to DB 
+2021-12-23 11:01:13 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2022-01-05 0:09:26 - DEBUG --> successfully connected to DB 
+2022-01-05 0:09:26 - DEBUG --> DBConnection.query: query=update player set email = 'mhillipsda6250@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2022-01-05 0:09:27 - DEBUG --> successfully connected to DB 
+2022-01-05 0:09:27 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2022-02-01 17:09:18 - DEBUG --> successfully connected to DB 
+2022-02-01 17:09:18 - DEBUG --> DBConnection.query: query=update player set email = 'suttonclara937@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2022-02-01 17:09:20 - DEBUG --> successfully connected to DB 
+2022-02-01 17:09:20 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2022-02-25 23:32:47 - DEBUG --> successfully connected to DB 
+2022-02-25 23:32:47 - DEBUG --> DBConnection.query: query=update player set email = 'carleyc485@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 
+2022-02-25 23:32:49 - DEBUG --> successfully connected to DB 
+2022-02-25 23:32:49 - DEBUG --> DBConnection.query: query=update player set email = 'virgilthompson294@gmail.com', question = 'CDHfVgbYiP', answer = 'teKlxqZJaomu' where player_id = 100 

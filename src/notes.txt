@@ -1,0 +1,541 @@
+
+dgdb.com - auction ends 7/4
+digodb.com - available
+atldgdb.com
+
+
+GoDaddy DB
+	discgolfdb, Godles0!
+
+173.201.62.1
+
+TODO:
+	change welcome page: Past Scores isn't a link, each of it's <ul> is a link
+
+TODO:
+	add helpful hints/explainations to pages if currentUserID=TestUser
+	User Stats: if two other players and not current user are selected
+		player colors are off
+	
+
+TODO:
+	font
+	security - brute force attack
+	unit tests
+		automatic HTML validation:
+			http://pear.php.net/package/Services_W3C_HTMLValidator/
+	use php framework
+		or at least an ORM - no need for me to create my model classes
+			hole, course, player, score
+	forgot password
+	fliers
+	domain name
+		atldgdb.com
+	collapsible multi-select for edit scores
+		http://www.erichynds.com/blog/jquery-ui-multiselect-widget
+			OMG FUCK THIS SHIT
+	remember me login
+		set cookie
+	have stats avg color be relative
+		more under par == more blue, more over par == more red
+	restrict access to directories
+		move log directory outside of main website
+			xampp/htdocs/logs
+	make html validate against WC3
+	search engine optimization
+	player stats - make it so that multiple players can be columns
+		instead of rows, replace single avg column with player1, player2, player3 columns
+			this would make it easier to compare averages between players
+	post source code on github
+		once I put it up there people can track code history
+			want to put something up there that is already pretty stable
+				and well written - need unit tests first
+				
+4/12/13
+=======
+player with no friends selects friends box
+	breaks site
+what does past scores do if there are no past scores
+
+4/9/13
+======
+Reset Password
+	http://glob.com.au/sendmail/
+		c:\xmpp\sendmail\sendmail.ini
+	http://email.about.com/od/accessingyahoomail/f/Yahoo_Mail_SMTP_Settings.htm
+
+4/7/13
+=======
+How to color averages:
+
+	what if someone is really bad?
+		all their averages are over par - don't want to just see all maxed red
+			
+
+	in relation to par:
+		even then it's subjective: .75 under par is totally blue, 1.5 over is red
+			probably want to default to .75 unless they have an avg lower
+				so if they have an avg .95 under then make that the max
+			same with max: default to 1 unless they have anything higher
+		
+	in relation to range: max avg - min avg
+		what do you use as middle?
+			(max avg - min avg) / 2 + min avg
+			or
+			avg of avgs?
+
+4/6/13
+=======
+MySql doesn't support table alias in delete statement
+	http://bugs.mysql.com/bug.php?id=12811
+		delete from p using player_to_friend_map as p ...
+
+Search Engine Optimization
+
+
+
+3/31/13
+=======
+http://www.colorzilla.com/gradient-editor/
+
+ALTER TABLE tbl AUTO_INCREMENT = 100;
+http://stackoverflow.com/questions/2410689/how-to-reset-an-mysql-autoincrement-using-a-max-value-from-another-table
+
+select * from score order by score_id desc;
+delete from score where (player_id = 100 or player_id = 101 or player_id = 102);
+select (max(score_id) + 1) from score;
+alter table score auto_increment = 5136;
+insert into score (score_id, player_id, hole_id, time, score, note)
+	select null, 100, hole_id, time, score, note from score where player_id = 1;
+insert into score (score_id, player_id, hole_id, time, score, note)
+	select null, 101, hole_id, time, score, note from score where player_id = 2;
+insert into score (score_id, player_id, hole_id, time, score, note)
+	select null, 102, hole_id, time, score, note from score where player_id = 3;
+
+
+http://brandnetworksinc.com/who-we-are
+
+TODO:
+	refactor findPastScores.php
+
+
+TODO:
+	color code each player in player stats
+		if multiple players selected
+			otherwise just alternate row colors (what I'm doing now)
+3/24/13
+=======
+DataTables - wont sort numbers correctly
+	since they are wrapped in <span>s
+		can set sType to html, but then sorts them as strings
+		http://datatables.net/plug-ins/
+			Sorting: Numbers with HTML
+			Type Detection: Numbers with HTML
+			
+	no sort by default - still want user to be able to click sort
+		http://datatables.net/forums/discussion/1399/how-to-no-sort-by-default/p1
+		
+	remove duplicate column values in a table
+		http://stackoverflow.com/questions/13510603/remove-duplicate-cells-of-a-column
+
+3/20/13
+=======
+Edit scores
+	change tee box and pin location
+	
+TODO:
+	use data tables for player stats and find past scores for desktop
+		probably for ipad too
+	remember me
+		set cookie
+	last column in user stats page is funky - wtf
+
+3/16/13
+=======
+Edit scores: want to be able to show teebox and pin location
+	how to store and retrieve this info?
+		could fetch and store when saving scores in scorecard.php
+			create hole object:
+				holeID, holeNum, teebox, pin location, par
+			score object:
+				scoreID, score, hole object
+		could fetch when retrieving editHTML in golfUtil.php 
+
+3/14/13
+=======
+Current date is wrong time
+	http://stackoverflow.com/questions/8648369/how-to-change-the-time-in-apache-server-so-it-matches-the-computers-time-php
+	php.ini: date.timezone = Europe/Berlin
+		date.timezone = America/New_York
+		but what if someone wanted to use site from other time zone?
+			not likely since courses are all in same timezone
+			and only matters if they start recording scores before midnight
+				and stop after midnight
+			but should consider saving date/time from client side
+				javascript, if possible
+
+
+3/12/13
+=======
+Browser possibilites
+	javascript not enabled
+		basic page
+	javascript enabled
+		small width
+			narrow page
+		wider than tall
+			wide page
+			
+http://www.tightcss.com/centering/center_variable_width.htm
+
+select * from score
+where year(time) = 2012 and month(time) = 3 and dayofmonth(time) = 8
+order by time, player_id
+
+3/10/13
+=======
+Save buttons
+	only enable "Set course, friends, date" when select box has changed
+	Save scores button needs to be enabled by default
+		but when a score is changed maybe add dirty bit "Save*"
+			or change its color?
+	Edit scores button - disabled by default, enabled when something changed
+
+3/5/13
+=======
+how to detect mobile device?
+how to detect touch device?
+	I need buttons to be of certain size on touch device
+	
+progressive enhancement
+responsive web design
+
+3/3/13
+=======
+Date picker
+	https://github.com/jtsage/jquery-mobile-datebox
+	
+	jquery ui
+		is very large on iphone
+		and every time I change months it selects input box which brings up keyboard
+			very annoying, not useable
+			
+	mobiscroll (or something)
+		couldn't figure out how to make it collapse
+			large, expanded control always there, don't need or want it
+			
+	date picker
+		uses styles from jquery mobile which style the entire page
+			don't want to style the entire page, just the date picker
+				though styling of entire page with jquery mobile for mobile only verion is probably something to do eventually
+
+mobile browser detection				
+
+orientation change
+	breaks layout
+		removed meta viewport tag - but now need dynamic font sizing
+		
+dynamic font-size
+
+3/2/13
+=======
+TODO: read http://coding.smashingmagazine.com/2009/04/08/from-table-hell-to-div-hell/
+
+2/27/13
+=======
+services:
+	saveScore
+		AJAX
+			would have to call php page that calls service->saveScore
+				would have to have ServiceProvider.php
+					accepts function name and params
+		PHP (HTML form)
+			would call function service->saveScore
+			
+	getScores
+		AJAX
+			would call ServiceProvider.php with funtion name and params
+				ServiceProvider.php would call service->getScores and echo output
+		PHP (HTML page)
+			would call service->getScore
+			
+	do AJAX calls return HTML or JSON?
+		JSON would be smaller, less data usage
+		HTML - advantages?
+		
+AJAX services:
+	save scores
+		would save scores then have to fetch scores
+	get scores
+		fetch scores
+	edit score
+		would have to save score then fetch scores for given player
+	
+TODO:
+	cleanup main directory: put action pages in their own directory
+		maybe pages too?
+	logger: use get_class($this) and get_parent_class($this) to set logger name
+
+2/26/13
+=======
+http://stackoverflow.com/questions/2056/what-are-mvp-and-mvc-and-what-is-the-difference
+
+how to refactor action pages so that forms can submit to them and AJAX can call them?
+	how can you run php code from both an AJAX call and a .php page?
+		and both return the same thing?
+		
+		difference between form submission and AJAX call
+			form submission redirects to a page
+				so forms need to submit to the page they're on?
+					index.php needs to submit to index.php
+						and then make function calls - no AJAX calls are to pages not functions
+						index.php could include pages that reference $_POST[] variables
+			AJAX call needs to echo output
+
+what am I going to use AJAX for?
+	select course
+	select friends
+	select date
+	edit score
+	
+scorecard: tap on score, modal window pops up
+	shows teebox, pin location, allows editing
+	plus up, down, left, right arrows to navigate to different hole
+	
+replace buttons with images:
+	save = disk icon
+	refresh = circle arrow (like Chrome refresh)
+	
+
+2/25/13
+=======
+created
+	player.getScoresHTML()
+	constructScoresHTML()
+	getHoleNumToDisplay
+	
+	need to update unit tests for scorecard, player and score(?)
+		they already work - how is that possible?
+	
+Player.numScoresPerRow
+	checkerboard only works if value is even
+
+2/23/13
+=======
+TODO:
+	usersettings
+		change display name:
+			fetching it from $_SESSION['playerIdToDisplayNameMap']
+				when update DB it doesn't update this
+				this is only set on login or creation of new user
+				probably needs to be updated upon every page refresh
+
+	Player class/object
+		Player.addFriend()
+		Player.changePassword()
+		...
+		
+	seperate HTML from business logic
+	make actions pages into webservices that AJAX could call (?)
+	
+	new front end:
+		make select date a jquery ui date picker
+		select friends:
+			google fast find search/select
+			a selected friends list 
+		need to determine platform:
+			mobile or desktop?
+			javascript or none?
+			
+	PHP templating - do I need it?
+
+2/10/13
+=======
+check for $dbAdapter->close()
+	need this at the end of pages
+
+Want to be able to change database
+	isolate MySQL code
+	
+Want to be able to have javascript front end
+	using AJAX calls
+		probably need webservices that can be called from PHP and AJAX
+
+	How to serve php or javascript font end
+		Config/session setting
+
+2/9/13
+=======
+Aptana
+	increase font: ctrl shift +
+	decrease font: ctrl -
+		what kind of fucking sense does that make? Seriously...
+		
+	how to pass around a database instance in php?
+	
+	
+
+4/16/12
+=======
+Don't make teebox it's own drop down. Make pin location.
+	
+
+3/8/12
+=======
+TODO: Don't make teebox it's own drop down. Make pin location.
+TODO: make a button next to Edit Scores button for Delete All Player's Last Hole
+
+3/6/12
+=======
+fixed findPastScores sets $_SESSION['selectedPlayers'] to multiple current user: selectedPlayers:6,6,6
+
+3/5/12
+=======
+TODO: use built-in server authentication instead of my custom one
+TODO: log into TestUser, find past scores, select last one, now have selectedPlayers:6,6,6
+
+put in logging using KLogger - http://codefury.net/projects/klogger/
+
+TODO: move test files into test directory
+TODO: move code from scorecard into player. create player.addScore(scoreID, holeNum, par, score, ...);
+	this would do everything in scorecard.php: //iterate through scores for given players for given course for selected date and store in player objects
+
+2/22/12
+=======
+refresh button on scorecard
+TODO: move tee box to it's own drop box
+
+2/21/12
+=======
+fuck player stats - that's going to be impossible
+	just going to focus on past scores instead
+TODO: move save button to right of drop down score entry
+TODO: move tee box to it's own drop box
+
+2/20/12
+=======
+Eclipse PHP
+	http://download.eclipse.org/releases/indigo/
+	Web, XML, ...
+		PDT
+		
+TODO: sort past scores by date or by course or by score
+TODO: get logging to work in all classes/function/whatever/ON THE GOD-DAMN MOTHER-FUCKING MOON!!!!!!!!!!!!!!!!!!!!
+
+2/19/12
+=======
+Updating scores
+	added dummy Oregon and White Oaks to hold rounds we played
+		but still haven't accurately mapped either course
+	select * from score where to_days(time) = to_days(current_date - 2)
+	edit score where to_days(time) = to_days(STR_TO_DATE('September 9, 2011','%M %d,%Y'))
+	
+	convert course from roswell to oregon
+		update score set hole_id = (hole_id + 274) where to_days(time) = to_days(STR_TO_DATE('September 16, 2011','%M %d,%Y')) and player_id = 3;
+
+	db export
+		http://stackoverflow.com/questions/1293529/how-to-deal-with-enormous-line-lengths-created-by-mysqldump
+		"C:\Program Files\MySQL\MySQL Server 5.5\bin\mysqldump.exe" -uroot -pgodleski --extended-insert=FALSE --complete-insert=TRUE discgolf > db_export.sql
+
+
+
+http://www.flickr.com/photos/9639428@N03/709865115/in/set-72157600634424425/
+
+http://www.johnrockefeller.net/html-input-forms-sending-in-an-array-in-php/
+
+http://www.ixeldog.com/setCoursePlayersDate.php?PHPSESSID=0v09m2kqidlo2d70ld0vkv5an2&selectCourse=1&selectPlayers[]=20&selectPlayers[]=23
+setCoursePlayersDate.php?selectPlayers%5B%5D=4&selectPlayers%5B%5D=20&selectPlayers%5B%5D=23&selectPlayers%5B%5D=6&selectCourse=1&dateDay=6&dateMonth=9&dateYear=2011
+
+http://www.somacon.com/p141.php
+
+98.192.86.205
+
+TODO
+	users cannot access any pages but ones they should: shouldn't be able to access util pages, action pages, css, ...
+	finish about page
+	auto select last hole for score edit - makes deleting last score easier
+	if playing first hole and it has long pin position it doesn't auto select hole two if it doesn't have long pin location too
+	robots.txt
+	require email address for user account creation?
+	buy router
+	user can record scores or skins (maybe???)
+	user setting: view menus (save vertical space)
+	when user first selects course and players, player score input drop down shows colors
+		but since no hole is auto-selected they are all red (since par would be undefined which I guess means 0)
+		maybe just disable this especially since it doesn't even work on my phone
+	login to website, logout, close chrome, open chrome, go to ixeldog.com, goes direct to main page
+		doesn't seem that logout is working right. Think it has to do with cookie.
+		http://php.net/manual/en/function.session-destroy.php
+		http://www.php.net/manual/en/function.setcookie.php
+	playerIdToNameMap - code duplicated in loginActions.php and setCoursePlayersDate.php
+	can't determine looking at scorecard teebox/pin location recorded
+		what if you accidently recorded long pin instead of short?
+	don't think I should list my email address on about.html
+		use an image like Bob Brown
+		create new yahoo account but what should my name be?
+		
+====================================================================================================
+
+Redesign:
+	what do I do when a course changes?
+		wills redesign, oregon redesign, ...
+		i think i would have to make a new course because old scores reference old holes and their respective pars
+		so if I just change the course info the old scores aren't really accurate
+		I guess I would have to create "Wills (200? - 2011)
+			
+		
+	what do I do when a hole changes?
+	
+	right now my DB doesn't know what a "round" of golf is? is this a problem?
+		I've set it up so user can play 1 hole, 4 holes, 9 holes, 18 holes, 23 holes, whatever....
+		if they only want to record 18 hole rounds that's their business
+		if they want to record whatever (like we might) then that's fine too
+
+====================================================================================================
+
+Message to post online:
+	quickly state what it is (online disc golf scorecard and database (di go da ba = digodaba)
+	made it for me and friends
+	check it out god damn it
+
+====================================================================================================
+
+Questions for Alec:
+	email for user account creation
+	security
+	advertising
+	ixeldog.com or need new domain name?
+
+====================================================================================================
+right now new scores and scores to edit uses list of selected players to look for their POST array keys
+	would be nice if you could save a score and still unselect a player at same time. not all that likely, but should be able to.
+	
+You can rename a column using a CHANGE old_col_name new_col_name column_definition clause
+
+session was expiring on my phone
+	looked at access log, i think failed requests were GET requests for "/" instead of "/index.php"
+		changed from using $_POST to $_GET
+		changed mainForm action from "index.php" to ""
+		
+c:\program files\mysql\mysql...\bin\mysqldump --user=root --password=godleski discgolf > c:\work\discgolf\discgolf.txt;
+
+playing redan, enter score for hole number 1, doesn't auto select hole number 2
+
+need to be able to delete or edit score of multiple holes at once - make edit hole selected a multiple just like player selection box
+	same for score entry?
+	
+auto select next hole
+	hole after hole just saved
+	hole after last hole saved
+	
+multi select edit - delete multiple scores at once
+
+member variables
+----------------
+$selectedCourse
+$selectedHole
+$newSelectedPlayers
+
+
+http://blogs.adobe.com/cantrell/archives/2003/05/git_rid_of_anno.html
+	form {margin: 0px 0px 0px 0px; }

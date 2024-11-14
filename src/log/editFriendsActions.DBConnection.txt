@@ -1,0 +1,2 @@
+2013-09-18 12:32:15 - DEBUG --> successfully connected to DB 
+2013-09-18 12:32:15 - DEBUG --> DBConnection.query: query=select player_id from player where player_login_name = 'Grayson' and player_id not in (select friend_id from player_to_friend_map where player_id = '118') 

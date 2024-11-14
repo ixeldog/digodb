@@ -1,0 +1,825 @@
+2013-04-25 19:14:09 - DEBUG --> successfully connected to DB 
+2013-04-25 19:14:09 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 126, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:11 - DEBUG --> successfully connected to DB 
+2013-04-25 19:14:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 127, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:12 - DEBUG --> successfully connected to DB 
+2013-04-25 19:14:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 128, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:24 - DEBUG --> successfully connected to DB 
+2013-04-25 19:14:24 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 460, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:24 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 460, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:24 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 460, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:26 - DEBUG --> successfully connected to DB 
+2013-04-25 19:14:26 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 461, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:26 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 461, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:26 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 461, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:27 - DEBUG --> successfully connected to DB 
+2013-04-25 19:14:27 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 462, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:27 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 462, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:27 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 462, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:29 - DEBUG --> successfully connected to DB 
+2013-04-25 19:14:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 463, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 463, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 463, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:30 - DEBUG --> successfully connected to DB 
+2013-04-25 19:14:30 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 464, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:30 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 464, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:30 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 464, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:35 - DEBUG --> successfully connected to DB 
+2013-04-25 19:14:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 465, concat("2013-04-25 ", curtime()), 4, NULL) 
+2013-04-25 19:14:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 465, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-25 19:14:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 465, concat("2013-04-25 ", curtime()), 3, NULL) 
+2013-04-27 18:38:12 - DEBUG --> successfully connected to DB 
+2013-04-27 18:38:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 126, concat("2013-04-27 ", curtime()), 3, NULL) 
+2013-04-27 18:38:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 126, concat("2013-04-27 ", curtime()), 3, NULL) 
+2013-04-27 18:38:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 126, concat("2013-04-27 ", curtime()), 3, NULL) 
+2013-04-27 18:38:15 - DEBUG --> successfully connected to DB 
+2013-04-27 18:38:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 127, concat("2013-04-27 ", curtime()), 3, NULL) 
+2013-04-27 18:38:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 127, concat("2013-04-27 ", curtime()), 3, NULL) 
+2013-04-27 18:38:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 127, concat("2013-04-27 ", curtime()), 3, NULL) 
+2013-04-27 18:38:16 - DEBUG --> successfully connected to DB 
+2013-04-27 18:38:16 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 128, concat("2013-04-27 ", curtime()), 3, NULL) 
+2013-04-27 18:38:16 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 128, concat("2013-04-27 ", curtime()), 3, NULL) 
+2013-04-27 18:38:16 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 128, concat("2013-04-27 ", curtime()), 3, NULL) 
+2013-04-29 18:22:40 - DEBUG --> successfully connected to DB 
+2013-04-29 18:22:40 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 1, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:40 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 1, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:40 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 1, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:43 - DEBUG --> successfully connected to DB 
+2013-04-29 18:22:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 2, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 2, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 2, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:44 - DEBUG --> successfully connected to DB 
+2013-04-29 18:22:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 3, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 3, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 3, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:46 - DEBUG --> successfully connected to DB 
+2013-04-29 18:22:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 4, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 4, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:22:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 4, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:23:25 - DEBUG --> successfully connected to DB 
+2013-04-29 18:23:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 5, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:23:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 5, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 18:23:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 5, concat("2013-04-29 ", curtime()), 4, NULL) 
+2013-04-29 19:47:30 - DEBUG --> successfully connected to DB 
+2013-04-29 19:47:30 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 1, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 19:47:34 - DEBUG --> successfully connected to DB 
+2013-04-29 19:47:34 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 2, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 19:47:35 - DEBUG --> successfully connected to DB 
+2013-04-29 19:47:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 3, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 19:47:36 - DEBUG --> successfully connected to DB 
+2013-04-29 19:47:36 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 4, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 19:47:37 - DEBUG --> successfully connected to DB 
+2013-04-29 19:47:37 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 5, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 19:47:41 - DEBUG --> successfully connected to DB 
+2013-04-29 19:47:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 6, concat("2013-04-29 ", curtime()), 1, NULL) 
+2013-04-29 19:47:46 - DEBUG --> successfully connected to DB 
+2013-04-29 19:47:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 7, concat("2013-04-29 ", curtime()), 5, NULL) 
+2013-04-29 19:47:49 - DEBUG --> successfully connected to DB 
+2013-04-29 19:47:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 8, concat("2013-04-29 ", curtime()), 2, NULL) 
+2013-04-29 19:47:53 - DEBUG --> successfully connected to DB 
+2013-04-29 19:47:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 9, concat("2013-04-29 ", curtime()), 5, NULL) 
+2013-04-29 21:06:01 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:01 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 200, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:19 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:19 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 206, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:26 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:26 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 212, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:28 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:28 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 218, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:30 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:30 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 224, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:32 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 230, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:34 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:34 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 236, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:36 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:36 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 239, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:38 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:38 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 242, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:39 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:39 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 245, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:41 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 251, concat("2013-04-29 ", curtime()), 3, NULL) 
+2013-04-29 21:06:45 - DEBUG --> successfully connected to DB 
+2013-04-29 21:06:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 257, concat("2013-04-29 ", curtime()), 4, NULL) 
+2013-04-30 17:35:53 - DEBUG --> successfully connected to DB 
+2013-04-30 17:35:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 200, concat("2013-04-30 ", curtime()), 3, NULL) 
+2013-04-30 17:35:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 200, concat("2013-04-30 ", curtime()), 3, NULL) 
+2013-05-01 7:10:36 - DEBUG --> successfully connected to DB 
+2013-05-01 7:10:36 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 1, concat("2013-05-01 ", curtime()), 3, NULL) 
+2013-05-01 7:10:39 - DEBUG --> successfully connected to DB 
+2013-05-01 7:10:39 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 2, concat("2013-05-01 ", curtime()), 3, NULL) 
+2013-05-01 7:10:40 - DEBUG --> successfully connected to DB 
+2013-05-01 7:10:40 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 3, concat("2013-05-01 ", curtime()), 3, NULL) 
+2013-05-01 7:10:41 - DEBUG --> successfully connected to DB 
+2013-05-01 7:10:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 4, concat("2013-05-01 ", curtime()), 3, NULL) 
+2013-05-01 7:10:42 - DEBUG --> successfully connected to DB 
+2013-05-01 7:10:42 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 5, concat("2013-05-01 ", curtime()), 3, NULL) 
+2013-05-01 7:10:44 - DEBUG --> successfully connected to DB 
+2013-05-01 7:10:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 6, concat("2013-05-01 ", curtime()), 3, NULL) 
+2013-05-09 9:30:35 - DEBUG --> successfully connected to DB 
+2013-05-09 9:30:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 102, 39, concat("2013-05-09 ", curtime()), 3, NULL) 
+2013-05-09 9:30:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 39, concat("2013-05-09 ", curtime()), 3, NULL) 
+2013-05-10 13:57:36 - DEBUG --> successfully connected to DB 
+2013-05-10 13:57:36 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 39, concat("2013-05-10 ", curtime()), 3, NULL) 
+2013-05-10 13:59:54 - DEBUG --> successfully connected to DB 
+2013-05-10 13:59:54 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 57, concat("2013-05-10 ", curtime()), 5, NULL) 
+2013-05-10 14:06:55 - DEBUG --> successfully connected to DB 
+2013-05-10 14:06:55 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 58, concat("2013-05-10 ", curtime()), 4, NULL) 
+2013-05-10 14:07:02 - DEBUG --> successfully connected to DB 
+2013-05-10 14:07:02 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 60, concat("2013-05-10 ", curtime()), 3, NULL) 
+2013-05-10 14:11:47 - DEBUG --> successfully connected to DB 
+2013-05-10 14:11:47 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 61, concat("2013-05-10 ", curtime()), 3, NULL) 
+2013-05-10 14:15:18 - DEBUG --> successfully connected to DB 
+2013-05-10 14:15:18 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 62, concat("2013-05-10 ", curtime()), 3, NULL) 
+2013-05-10 14:21:13 - DEBUG --> successfully connected to DB 
+2013-05-10 14:21:13 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 63, concat("2013-05-10 ", curtime()), 3, NULL) 
+2013-05-10 14:21:15 - DEBUG --> successfully connected to DB 
+2013-05-10 14:21:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 64, concat("2013-05-10 ", curtime()), 3, NULL) 
+2013-05-10 14:34:38 - DEBUG --> successfully connected to DB 
+2013-05-10 14:34:38 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 66, concat("2013-05-10 ", curtime()), 4, NULL) 
+2013-05-10 14:34:44 - DEBUG --> successfully connected to DB 
+2013-05-10 14:34:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 67, concat("2013-05-10 ", curtime()), 4, NULL) 
+2013-05-10 14:39:28 - DEBUG --> successfully connected to DB 
+2013-05-10 14:39:28 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 68, concat("2013-05-10 ", curtime()), 3, NULL) 
+2013-05-10 14:39:46 - DEBUG --> successfully connected to DB 
+2013-05-10 14:39:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 70, concat("2013-05-10 ", curtime()), 3, NULL) 
+2013-05-10 14:44:12 - DEBUG --> successfully connected to DB 
+2013-05-10 14:44:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 73, concat("2013-05-10 ", curtime()), 4, NULL) 
+2013-05-10 14:46:12 - DEBUG --> successfully connected to DB 
+2013-05-10 14:46:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 74, concat("2013-05-10 ", curtime()), 3, NULL) 
+2013-05-10 14:50:03 - DEBUG --> successfully connected to DB 
+2013-05-10 14:50:03 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 75, concat("2013-05-10 ", curtime()), 4, NULL) 
+2013-05-10 14:58:07 - DEBUG --> successfully connected to DB 
+2013-05-10 14:58:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 76, concat("2013-05-10 ", curtime()), 2, NULL) 
+2013-05-10 14:58:23 - DEBUG --> successfully connected to DB 
+2013-05-10 14:58:23 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 77, concat("2013-05-10 ", curtime()), 4, NULL) 
+2013-05-13 7:11:55 - DEBUG --> successfully connected to DB 
+2013-05-13 7:11:55 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 39, concat("2013-05-13 ", curtime()), 2, NULL) 
+2013-05-13 7:14:43 - DEBUG --> successfully connected to DB 
+2013-05-13 7:14:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 39, concat("2013-05-13 ", curtime()), 3, NULL) 
+2013-05-13 7:15:01 - DEBUG --> successfully connected to DB 
+2013-05-13 7:15:01 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 57, concat("2013-05-13 ", curtime()), 4, NULL) 
+2013-05-13 7:15:11 - DEBUG --> successfully connected to DB 
+2013-05-13 7:15:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 58, concat("2013-05-13 ", curtime()), 3, NULL) 
+2013-05-13 7:15:32 - DEBUG --> successfully connected to DB 
+2013-05-13 7:15:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 60, concat("2013-05-13 ", curtime()), 3, NULL) 
+2013-05-13 7:15:50 - DEBUG --> successfully connected to DB 
+2013-05-13 7:15:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 61, concat("2013-05-13 ", curtime()), 3, NULL) 
+2013-05-13 7:16:01 - DEBUG --> successfully connected to DB 
+2013-05-13 7:16:01 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 62, concat("2013-05-13 ", curtime()), 2, NULL) 
+2013-05-13 7:16:13 - DEBUG --> successfully connected to DB 
+2013-05-13 7:16:13 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 63, concat("2013-05-13 ", curtime()), 2, NULL) 
+2013-05-13 7:16:24 - DEBUG --> successfully connected to DB 
+2013-05-13 7:16:24 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 64, concat("2013-05-13 ", curtime()), 3, NULL) 
+2013-05-13 7:16:36 - DEBUG --> successfully connected to DB 
+2013-05-13 7:16:36 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 66, concat("2013-05-13 ", curtime()), 4, NULL) 
+2013-05-13 7:16:46 - DEBUG --> successfully connected to DB 
+2013-05-13 7:16:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 67, concat("2013-05-13 ", curtime()), 3, NULL) 
+2013-05-13 7:16:52 - DEBUG --> successfully connected to DB 
+2013-05-13 7:16:52 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 68, concat("2013-05-13 ", curtime()), 2, NULL) 
+2013-05-13 7:17:14 - DEBUG --> successfully connected to DB 
+2013-05-13 7:17:14 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 70, concat("2013-05-13 ", curtime()), 2, NULL) 
+2013-05-13 7:17:42 - DEBUG --> successfully connected to DB 
+2013-05-13 7:17:42 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 72, concat("2013-05-13 ", curtime()), 3, NULL) 
+2013-05-13 7:17:54 - DEBUG --> successfully connected to DB 
+2013-05-13 7:17:54 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 73, concat("2013-05-13 ", curtime()), 5, NULL) 
+2013-05-13 7:18:10 - DEBUG --> successfully connected to DB 
+2013-05-13 7:18:10 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 74, concat("2013-05-13 ", curtime()), 3, NULL) 
+2013-05-13 7:18:18 - DEBUG --> successfully connected to DB 
+2013-05-13 7:18:18 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 75, concat("2013-05-13 ", curtime()), 2, NULL) 
+2013-05-13 7:18:25 - DEBUG --> successfully connected to DB 
+2013-05-13 7:18:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 76, concat("2013-05-13 ", curtime()), 2, NULL) 
+2013-05-13 7:18:31 - DEBUG --> successfully connected to DB 
+2013-05-13 7:18:31 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 117, 77, concat("2013-05-13 ", curtime()), 3, NULL) 
+2013-05-17 13:18:35 - DEBUG --> successfully connected to DB 
+2013-05-17 13:18:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 1, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 13:24:45 - DEBUG --> successfully connected to DB 
+2013-05-17 13:24:45 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 2, concat("2013-05-17 ", curtime()), 4, NULL) 
+2013-05-17 13:29:39 - DEBUG --> successfully connected to DB 
+2013-05-17 13:29:39 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 3, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 13:32:55 - DEBUG --> successfully connected to DB 
+2013-05-17 13:32:55 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 4, concat("2013-05-17 ", curtime()), 4, NULL) 
+2013-05-17 13:36:15 - DEBUG --> successfully connected to DB 
+2013-05-17 13:36:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 5, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 13:43:20 - DEBUG --> successfully connected to DB 
+2013-05-17 13:43:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 6, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 13:43:23 - DEBUG --> successfully connected to DB 
+2013-05-17 13:43:23 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 7, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 13:48:13 - DEBUG --> successfully connected to DB 
+2013-05-17 13:48:13 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 8, concat("2013-05-17 ", curtime()), 4, NULL) 
+2013-05-17 13:48:18 - DEBUG --> successfully connected to DB 
+2013-05-17 13:48:18 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 9, concat("2013-05-17 ", curtime()), 4, NULL) 
+2013-05-17 13:52:16 - DEBUG --> successfully connected to DB 
+2013-05-17 13:52:16 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 10, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 13:54:14 - DEBUG --> successfully connected to DB 
+2013-05-17 13:54:14 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 11, concat("2013-05-17 ", curtime()), 2, NULL) 
+2013-05-17 14:04:10 - DEBUG --> successfully connected to DB 
+2013-05-17 14:04:10 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 12, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 14:04:12 - DEBUG --> successfully connected to DB 
+2013-05-17 14:04:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 13, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 14:04:14 - DEBUG --> successfully connected to DB 
+2013-05-17 14:04:14 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 14, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 14:04:15 - DEBUG --> successfully connected to DB 
+2013-05-17 14:04:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 15, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 14:12:55 - DEBUG --> successfully connected to DB 
+2013-05-17 14:12:55 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 16, concat("2013-05-17 ", curtime()), 5, NULL) 
+2013-05-17 14:12:57 - DEBUG --> successfully connected to DB 
+2013-05-17 14:12:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 17, concat("2013-05-17 ", curtime()), 3, NULL) 
+2013-05-17 14:30:26 - DEBUG --> successfully connected to DB 
+2013-05-17 14:30:26 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 18, concat("2013-05-17 ", curtime()), 4, NULL) 
+2013-05-18 11:36:53 - DEBUG --> successfully connected to DB 
+2013-05-18 11:36:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 1, concat("2013-05-18 ", curtime()), 4, NULL) 
+2013-05-18 11:47:42 - DEBUG --> successfully connected to DB 
+2013-05-18 11:47:42 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 2, concat("2013-05-18 ", curtime()), 3, NULL) 
+2013-05-18 11:47:47 - DEBUG --> successfully connected to DB 
+2013-05-18 11:47:47 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 3, concat("2013-05-18 ", curtime()), 4, NULL) 
+2013-05-18 12:02:12 - DEBUG --> successfully connected to DB 
+2013-05-18 12:02:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 4, concat("2013-05-18 ", curtime()), 3, NULL) 
+2013-05-18 12:02:13 - DEBUG --> successfully connected to DB 
+2013-05-18 12:02:13 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 5, concat("2013-05-18 ", curtime()), 3, NULL) 
+2013-05-18 12:02:15 - DEBUG --> successfully connected to DB 
+2013-05-18 12:02:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 6, concat("2013-05-18 ", curtime()), 3, NULL) 
+2013-05-18 12:02:20 - DEBUG --> successfully connected to DB 
+2013-05-18 12:02:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 7, concat("2013-05-18 ", curtime()), 4, NULL) 
+2013-05-18 12:09:44 - DEBUG --> successfully connected to DB 
+2013-05-18 12:09:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 8, concat("2013-05-18 ", curtime()), 4, NULL) 
+2013-05-18 12:09:50 - DEBUG --> successfully connected to DB 
+2013-05-18 12:09:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 9, concat("2013-05-18 ", curtime()), 3, NULL) 
+2013-05-18 12:14:06 - DEBUG --> successfully connected to DB 
+2013-05-18 12:14:06 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 10, concat("2013-05-18 ", curtime()), 6, NULL) 
+2013-05-18 12:22:49 - DEBUG --> successfully connected to DB 
+2013-05-18 12:22:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 11, concat("2013-05-18 ", curtime()), 4, NULL) 
+2013-05-18 12:23:09 - DEBUG --> successfully connected to DB 
+2013-05-18 12:23:09 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 12, concat("2013-05-18 ", curtime()), 4, NULL) 
+2013-05-18 12:31:19 - DEBUG --> successfully connected to DB 
+2013-05-18 12:31:19 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 13, concat("2013-05-18 ", curtime()), 3, NULL) 
+2013-05-18 12:31:24 - DEBUG --> successfully connected to DB 
+2013-05-18 12:31:24 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 14, concat("2013-05-18 ", curtime()), 4, NULL) 
+2013-05-18 12:31:27 - DEBUG --> successfully connected to DB 
+2013-05-18 12:31:27 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 15, concat("2013-05-18 ", curtime()), 4, NULL) 
+2013-05-18 12:36:16 - DEBUG --> successfully connected to DB 
+2013-05-18 12:36:17 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 16, concat("2013-05-18 ", curtime()), 5, NULL) 
+2013-05-18 12:42:53 - DEBUG --> successfully connected to DB 
+2013-05-18 12:42:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 17, concat("2013-05-18 ", curtime()), 3, NULL) 
+2013-05-18 12:43:01 - DEBUG --> successfully connected to DB 
+2013-05-18 12:43:01 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 18, concat("2013-05-18 ", curtime()), 4, NULL) 
+2013-05-25 11:41:28 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:28 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 720, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:32 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 721, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:33 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:33 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 722, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:34 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:34 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 723, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:36 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:36 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 724, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:37 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:37 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 725, concat("2013-05-25 ", curtime()), 4, NULL) 
+2013-05-25 11:41:38 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:38 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 726, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:40 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:40 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 727, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:41 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 728, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:42 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:42 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 729, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:44 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 730, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:45 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:45 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 731, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:47 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:47 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 732, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:48 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:48 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 733, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:49 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 734, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:50 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 735, concat("2013-05-25 ", curtime()), 4, NULL) 
+2013-05-25 11:41:51 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:51 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 736, concat("2013-05-25 ", curtime()), 3, NULL) 
+2013-05-25 11:41:52 - DEBUG --> successfully connected to DB 
+2013-05-25 11:41:52 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 737, concat("2013-05-25 ", curtime()), 4, NULL) 
+2013-05-26 9:19:39 - DEBUG --> successfully connected to DB 
+2013-05-26 9:19:39 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 721, concat("2013-05-26 ", curtime()), 3, NULL) 
+2013-05-26 9:19:47 - DEBUG --> successfully connected to DB 
+2013-05-26 9:19:47 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 722, concat("2013-05-26 ", curtime()), 2, NULL) 
+2013-06-08 19:07:03 - DEBUG --> successfully connected to DB 
+2013-06-08 19:07:03 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 100, 108, concat("2013-06-08 ", curtime()), 3, NULL) 
+2013-06-09 8:38:58 - DEBUG --> successfully connected to DB 
+2013-06-09 8:38:58 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 1, concat("2013-06-09 ", curtime()), 3, NULL) 
+2013-06-09 8:47:02 - DEBUG --> successfully connected to DB 
+2013-06-09 8:47:02 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 2, concat("2013-06-09 ", curtime()), 3, NULL) 
+2013-06-09 9:05:29 - DEBUG --> successfully connected to DB 
+2013-06-09 9:05:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 3, concat("2013-06-09 ", curtime()), 5, NULL) 
+2013-06-09 9:05:33 - DEBUG --> successfully connected to DB 
+2013-06-09 9:05:33 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 4, concat("2013-06-09 ", curtime()), 4, NULL) 
+2013-06-09 9:05:38 - DEBUG --> successfully connected to DB 
+2013-06-09 9:05:38 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 5, concat("2013-06-09 ", curtime()), 3, NULL) 
+2013-06-09 9:25:00 - DEBUG --> successfully connected to DB 
+2013-06-09 9:25:00 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 6, concat("2013-06-09 ", curtime()), 3, NULL) 
+2013-06-09 9:54:45 - DEBUG --> successfully connected to DB 
+2013-06-09 9:54:45 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 7, concat("2013-06-09 ", curtime()), 5, NULL) 
+2013-06-09 9:54:51 - DEBUG --> successfully connected to DB 
+2013-06-09 9:54:51 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 8, concat("2013-06-09 ", curtime()), 3, NULL) 
+2013-06-09 10:04:02 - DEBUG --> successfully connected to DB 
+2013-06-09 10:04:02 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 9, concat("2013-06-09 ", curtime()), 4, NULL) 
+2013-06-09 10:17:12 - DEBUG --> successfully connected to DB 
+2013-06-09 10:17:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 10, concat("2013-06-09 ", curtime()), 4, NULL) 
+2013-06-09 10:29:17 - DEBUG --> successfully connected to DB 
+2013-06-09 10:29:17 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 11, concat("2013-06-09 ", curtime()), 3, NULL) 
+2013-06-09 10:29:24 - DEBUG --> successfully connected to DB 
+2013-06-09 10:29:24 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 12, concat("2013-06-09 ", curtime()), 5, NULL) 
+2013-06-09 10:43:43 - DEBUG --> successfully connected to DB 
+2013-06-09 10:43:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 13, concat("2013-06-09 ", curtime()), 4, NULL) 
+2013-06-09 10:44:06 - DEBUG --> successfully connected to DB 
+2013-06-09 10:44:06 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 14, concat("2013-06-09 ", curtime()), 2, NULL) 
+2013-06-09 11:04:35 - DEBUG --> successfully connected to DB 
+2013-06-09 11:04:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 15, concat("2013-06-09 ", curtime()), 3, NULL) 
+2013-06-09 11:04:42 - DEBUG --> successfully connected to DB 
+2013-06-09 11:04:42 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 16, concat("2013-06-09 ", curtime()), 4, NULL) 
+2013-06-09 11:08:35 - DEBUG --> successfully connected to DB 
+2013-06-09 11:08:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 17, concat("2013-06-09 ", curtime()), 4, NULL) 
+2013-06-09 11:14:32 - DEBUG --> successfully connected to DB 
+2013-06-09 11:14:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 18, concat("2013-06-09 ", curtime()), 3, NULL) 
+2013-06-10 8:16:33 - DEBUG --> successfully connected to DB 
+2013-06-10 8:16:33 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 79, concat("2013-06-10 ", curtime()), 5, NULL) 
+2013-06-10 8:27:03 - DEBUG --> successfully connected to DB 
+2013-06-10 8:27:03 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 80, concat("2013-06-10 ", curtime()), 6, NULL) 
+2013-06-10 8:58:57 - DEBUG --> successfully connected to DB 
+2013-06-10 8:58:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 82, concat("2013-06-10 ", curtime()), 6, NULL) 
+2013-06-10 8:59:12 - DEBUG --> successfully connected to DB 
+2013-06-10 8:59:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 144, concat("2013-06-10 ", curtime()), 7, NULL) 
+2013-06-10 9:07:43 - DEBUG --> successfully connected to DB 
+2013-06-10 9:07:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 84, concat("2013-06-10 ", curtime()), 4, NULL) 
+2013-06-10 9:54:57 - DEBUG --> successfully connected to DB 
+2013-06-10 9:54:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 86, concat("2013-06-10 ", curtime()), 6, NULL) 
+2013-06-10 9:55:18 - DEBUG --> successfully connected to DB 
+2013-06-10 9:55:18 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 88, concat("2013-06-10 ", curtime()), 6, NULL) 
+2013-06-10 9:55:22 - DEBUG --> successfully connected to DB 
+2013-06-10 9:55:22 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 90, concat("2013-06-10 ", curtime()), 6, NULL) 
+2013-06-10 10:05:30 - DEBUG --> successfully connected to DB 
+2013-06-10 10:05:30 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 91, concat("2013-06-10 ", curtime()), 6, NULL) 
+2013-06-14 14:08:10 - DEBUG --> successfully connected to DB 
+2013-06-14 14:08:10 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 1, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:08:10 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 1, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:08:10 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 1, concat("2013-06-14 ", curtime()), 5, NULL) 
+2013-06-14 14:13:12 - DEBUG --> successfully connected to DB 
+2013-06-14 14:13:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 2, concat("2013-06-14 ", curtime()), 2, NULL) 
+2013-06-14 14:13:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 2, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 14:13:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 2, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 14:19:20 - DEBUG --> successfully connected to DB 
+2013-06-14 14:19:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 3, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 14:19:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 3, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:19:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 3, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 14:27:54 - DEBUG --> successfully connected to DB 
+2013-06-14 14:27:55 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 4, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:27:55 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 4, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:27:55 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 4, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 14:31:51 - DEBUG --> successfully connected to DB 
+2013-06-14 14:31:51 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 5, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 14:31:51 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 5, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 14:31:51 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 5, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:38:25 - DEBUG --> successfully connected to DB 
+2013-06-14 14:38:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 6, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 14:38:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 6, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 14:38:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 6, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:43:20 - DEBUG --> successfully connected to DB 
+2013-06-14 14:43:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 7, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:43:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 7, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:43:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 7, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:50:04 - DEBUG --> successfully connected to DB 
+2013-06-14 14:50:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 8, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:50:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 8, concat("2013-06-14 ", curtime()), 5, NULL) 
+2013-06-14 14:50:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 8, concat("2013-06-14 ", curtime()), 5, NULL) 
+2013-06-14 14:58:18 - DEBUG --> successfully connected to DB 
+2013-06-14 14:58:18 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 9, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:58:18 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 9, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 14:58:18 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 9, concat("2013-06-14 ", curtime()), 5, NULL) 
+2013-06-14 15:04:20 - DEBUG --> successfully connected to DB 
+2013-06-14 15:04:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 10, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 15:04:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 10, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:04:20 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 10, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 15:09:43 - DEBUG --> successfully connected to DB 
+2013-06-14 15:09:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 11, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:09:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 11, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:09:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 11, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 15:16:44 - DEBUG --> successfully connected to DB 
+2013-06-14 15:16:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 12, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:16:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 12, concat("2013-06-14 ", curtime()), 2, NULL) 
+2013-06-14 15:16:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 12, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:21:08 - DEBUG --> successfully connected to DB 
+2013-06-14 15:21:08 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 13, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:21:08 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 13, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:21:08 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 13, concat("2013-06-14 ", curtime()), 2, NULL) 
+2013-06-14 15:25:25 - DEBUG --> successfully connected to DB 
+2013-06-14 15:25:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 14, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:25:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 14, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:25:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 14, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 15:34:50 - DEBUG --> successfully connected to DB 
+2013-06-14 15:34:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 15, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:34:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 15, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:34:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 15, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 15:35:52 - DEBUG --> successfully connected to DB 
+2013-06-14 15:35:52 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 16, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 15:35:52 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 16, concat("2013-06-14 ", curtime()), 5, NULL) 
+2013-06-14 15:35:52 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 16, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 15:40:50 - DEBUG --> successfully connected to DB 
+2013-06-14 15:40:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 17, concat("2013-06-14 ", curtime()), 2, NULL) 
+2013-06-14 15:40:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 17, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 15:40:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 17, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:46:43 - DEBUG --> successfully connected to DB 
+2013-06-14 15:46:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 18, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-14 15:46:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 18, concat("2013-06-14 ", curtime()), 4, NULL) 
+2013-06-14 15:46:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 18, concat("2013-06-14 ", curtime()), 3, NULL) 
+2013-06-16 9:59:16 - DEBUG --> successfully connected to DB 
+2013-06-16 9:59:16 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 500, concat("2013-06-16 ", curtime()), 3, NULL) 
+2013-06-16 10:23:06 - DEBUG --> successfully connected to DB 
+2013-06-16 10:23:06 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 501, concat("2013-06-16 ", curtime()), 4, NULL) 
+2013-06-16 10:23:12 - DEBUG --> successfully connected to DB 
+2013-06-16 10:23:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 502, concat("2013-06-16 ", curtime()), 4, NULL) 
+2013-06-16 10:30:53 - DEBUG --> successfully connected to DB 
+2013-06-16 10:30:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 503, concat("2013-06-16 ", curtime()), 4, NULL) 
+2013-06-16 10:40:29 - DEBUG --> successfully connected to DB 
+2013-06-16 10:40:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 504, concat("2013-06-16 ", curtime()), 4, NULL) 
+2013-06-16 10:51:46 - DEBUG --> successfully connected to DB 
+2013-06-16 10:51:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 505, concat("2013-06-16 ", curtime()), 5, NULL) 
+2013-06-16 11:00:31 - DEBUG --> successfully connected to DB 
+2013-06-16 11:00:31 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 506, concat("2013-06-16 ", curtime()), 4, NULL) 
+2013-06-16 11:10:42 - DEBUG --> successfully connected to DB 
+2013-06-16 11:10:42 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 507, concat("2013-06-16 ", curtime()), 4, NULL) 
+2013-06-16 11:33:40 - DEBUG --> successfully connected to DB 
+2013-06-16 11:33:40 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 508, concat("2013-06-16 ", curtime()), 5, NULL) 
+2013-06-16 11:42:33 - DEBUG --> successfully connected to DB 
+2013-06-16 11:42:33 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 509, concat("2013-06-16 ", curtime()), 5, NULL) 
+2013-06-16 11:59:24 - DEBUG --> successfully connected to DB 
+2013-06-16 11:59:24 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 510, concat("2013-06-16 ", curtime()), 5, NULL) 
+2013-06-16 12:06:54 - DEBUG --> successfully connected to DB 
+2013-06-16 12:06:54 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 511, concat("2013-06-16 ", curtime()), 3, NULL) 
+2013-06-16 12:15:51 - DEBUG --> successfully connected to DB 
+2013-06-16 12:15:51 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 512, concat("2013-06-16 ", curtime()), 2, NULL) 
+2013-06-16 12:35:49 - DEBUG --> successfully connected to DB 
+2013-06-16 12:35:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 513, concat("2013-06-16 ", curtime()), 4, NULL) 
+2013-06-16 12:41:34 - DEBUG --> successfully connected to DB 
+2013-06-16 12:41:34 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 514, concat("2013-06-16 ", curtime()), 4, NULL) 
+2013-06-16 12:55:24 - DEBUG --> successfully connected to DB 
+2013-06-16 12:55:24 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 515, concat("2013-06-16 ", curtime()), 3, NULL) 
+2013-06-16 13:02:09 - DEBUG --> successfully connected to DB 
+2013-06-16 13:02:09 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 516, concat("2013-06-16 ", curtime()), 3, NULL) 
+2013-06-16 13:23:58 - DEBUG --> successfully connected to DB 
+2013-06-16 13:23:58 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 517, concat("2013-06-16 ", curtime()), 4, NULL) 
+2013-06-22 11:07:41 - DEBUG --> successfully connected to DB 
+2013-06-22 11:07:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 79, concat("2013-06-22 ", curtime()), 3, NULL) 
+2013-06-22 11:07:46 - DEBUG --> successfully connected to DB 
+2013-06-22 11:07:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 80, concat("2013-06-22 ", curtime()), 2, NULL) 
+2013-06-22 11:18:30 - DEBUG --> successfully connected to DB 
+2013-06-22 11:18:30 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 82, concat("2013-06-22 ", curtime()), 3, NULL) 
+2013-06-22 11:23:28 - DEBUG --> successfully connected to DB 
+2013-06-22 11:23:28 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 144, concat("2013-06-22 ", curtime()), 7, NULL) 
+2013-06-22 11:34:02 - DEBUG --> successfully connected to DB 
+2013-06-22 11:34:02 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 84, concat("2013-06-22 ", curtime()), 5, NULL) 
+2013-06-22 11:36:45 - DEBUG --> successfully connected to DB 
+2013-06-22 11:36:45 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 86, concat("2013-06-22 ", curtime()), 3, NULL) 
+2013-06-22 11:44:10 - DEBUG --> successfully connected to DB 
+2013-06-22 11:44:10 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 88, concat("2013-06-22 ", curtime()), 3, NULL) 
+2013-06-22 11:45:23 - DEBUG --> successfully connected to DB 
+2013-06-22 11:45:23 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 90, concat("2013-06-22 ", curtime()), 3, NULL) 
+2013-06-22 12:00:53 - DEBUG --> successfully connected to DB 
+2013-06-22 12:00:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 91, concat("2013-06-22 ", curtime()), 3, NULL) 
+2013-06-22 12:51:54 - DEBUG --> successfully connected to DB 
+2013-06-22 12:51:54 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 93, concat("2013-06-22 ", curtime()), 2, NULL) 
+2013-06-22 12:52:00 - DEBUG --> successfully connected to DB 
+2013-06-22 12:52:00 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 95, concat("2013-06-22 ", curtime()), 5, NULL) 
+2013-06-22 12:52:04 - DEBUG --> successfully connected to DB 
+2013-06-22 12:52:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 97, concat("2013-06-22 ", curtime()), 2, NULL) 
+2013-06-22 12:59:24 - DEBUG --> successfully connected to DB 
+2013-06-22 12:59:24 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 99, concat("2013-06-22 ", curtime()), 4, NULL) 
+2013-06-22 13:13:04 - DEBUG --> successfully connected to DB 
+2013-06-22 13:13:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 101, concat("2013-06-22 ", curtime()), 4, NULL) 
+2013-06-22 13:13:07 - DEBUG --> successfully connected to DB 
+2013-06-22 13:13:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 103, concat("2013-06-22 ", curtime()), 5, NULL) 
+2013-06-22 13:17:16 - DEBUG --> successfully connected to DB 
+2013-06-22 13:17:16 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 104, concat("2013-06-22 ", curtime()), 3, NULL) 
+2013-06-22 13:23:25 - DEBUG --> successfully connected to DB 
+2013-06-22 13:23:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 106, concat("2013-06-22 ", curtime()), 3, NULL) 
+2013-06-22 13:33:47 - DEBUG --> successfully connected to DB 
+2013-06-22 13:33:47 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 145, concat("2013-06-22 ", curtime()), 3, NULL) 
+2013-06-23 16:39:17 - DEBUG --> successfully connected to DB 
+2013-06-23 16:39:17 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 39, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 16:39:17 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 39, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 16:39:17 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 39, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 16:46:44 - DEBUG --> successfully connected to DB 
+2013-06-23 16:46:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 57, concat("2013-06-23 ", curtime()), 5, NULL) 
+2013-06-23 16:46:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 57, concat("2013-06-23 ", curtime()), 7, NULL) 
+2013-06-23 16:46:44 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 57, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 16:52:56 - DEBUG --> successfully connected to DB 
+2013-06-23 16:52:56 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 58, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 16:52:56 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 58, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 16:52:56 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 58, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 16:59:35 - DEBUG --> successfully connected to DB 
+2013-06-23 16:59:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 60, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 16:59:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 60, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 16:59:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 60, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:06:47 - DEBUG --> successfully connected to DB 
+2013-06-23 17:06:47 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 61, concat("2013-06-23 ", curtime()), 5, NULL) 
+2013-06-23 17:06:47 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 61, concat("2013-06-23 ", curtime()), 5, NULL) 
+2013-06-23 17:06:47 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 61, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 17:11:40 - DEBUG --> successfully connected to DB 
+2013-06-23 17:11:40 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 62, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:11:40 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 62, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:11:40 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 62, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 17:15:49 - DEBUG --> successfully connected to DB 
+2013-06-23 17:15:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 63, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:15:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 63, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:15:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 63, concat("2013-06-23 ", curtime()), 2, NULL) 
+2013-06-23 17:22:07 - DEBUG --> successfully connected to DB 
+2013-06-23 17:22:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 64, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:22:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 64, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 17:22:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 64, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:30:58 - DEBUG --> successfully connected to DB 
+2013-06-23 17:30:59 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 66, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 17:30:59 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 66, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 17:30:59 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 66, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 17:34:32 - DEBUG --> successfully connected to DB 
+2013-06-23 17:34:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 67, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 17:34:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 67, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:34:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 67, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:48:03 - DEBUG --> successfully connected to DB 
+2013-06-23 17:48:03 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 68, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 17:48:03 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 68, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:48:03 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 68, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 17:49:33 - DEBUG --> successfully connected to DB 
+2013-06-23 17:49:33 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 70, concat("2013-06-23 ", curtime()), 2, NULL) 
+2013-06-23 17:49:33 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 70, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 17:49:33 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 70, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 18:03:45 - DEBUG --> successfully connected to DB 
+2013-06-23 18:03:45 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 71, concat("2013-06-23 ", curtime()), 5, NULL) 
+2013-06-23 18:03:45 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 71, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 18:03:45 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 71, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 18:07:37 - DEBUG --> successfully connected to DB 
+2013-06-23 18:07:37 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 75, concat("2013-06-23 ", curtime()), 2, NULL) 
+2013-06-23 18:07:37 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 75, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 18:07:37 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 75, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 18:25:49 - DEBUG --> successfully connected to DB 
+2013-06-23 18:25:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 76, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 18:25:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 76, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 18:25:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 76, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-23 18:26:04 - DEBUG --> successfully connected to DB 
+2013-06-23 18:26:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 77, concat("2013-06-23 ", curtime()), 5, NULL) 
+2013-06-23 18:26:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 77, concat("2013-06-23 ", curtime()), 4, NULL) 
+2013-06-23 18:26:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 77, concat("2013-06-23 ", curtime()), 3, NULL) 
+2013-06-28 13:27:31 - DEBUG --> successfully connected to DB 
+2013-06-28 13:27:31 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 600, concat("2013-06-28 ", curtime()), 5, NULL) 
+2013-06-28 13:32:03 - DEBUG --> successfully connected to DB 
+2013-06-28 13:32:03 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 601, concat("2013-06-28 ", curtime()), 4, NULL) 
+2013-06-28 13:42:59 - DEBUG --> successfully connected to DB 
+2013-06-28 13:42:59 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 602, concat("2013-06-28 ", curtime()), 3, NULL) 
+2013-06-28 13:52:03 - DEBUG --> successfully connected to DB 
+2013-06-28 13:52:03 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 603, concat("2013-06-28 ", curtime()), 4, NULL) 
+2013-06-28 14:14:35 - DEBUG --> successfully connected to DB 
+2013-06-28 14:14:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 604, concat("2013-06-28 ", curtime()), 6, NULL) 
+2013-06-28 14:40:19 - DEBUG --> successfully connected to DB 
+2013-06-28 14:40:19 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 605, concat("2013-06-28 ", curtime()), 6, NULL) 
+2013-06-28 14:40:23 - DEBUG --> successfully connected to DB 
+2013-06-28 14:40:23 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 606, concat("2013-06-28 ", curtime()), 3, NULL) 
+2013-06-28 14:40:25 - DEBUG --> successfully connected to DB 
+2013-06-28 14:40:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 607, concat("2013-06-28 ", curtime()), 3, NULL) 
+2013-06-28 14:40:29 - DEBUG --> successfully connected to DB 
+2013-06-28 14:40:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 608, concat("2013-06-28 ", curtime()), 4, NULL) 
+2013-06-28 14:58:39 - DEBUG --> successfully connected to DB 
+2013-06-28 14:58:39 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 609, concat("2013-06-28 ", curtime()), 5, NULL) 
+2013-06-28 15:22:16 - DEBUG --> successfully connected to DB 
+2013-06-28 15:22:16 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 610, concat("2013-06-28 ", curtime()), 7, NULL) 
+2013-06-28 15:22:25 - DEBUG --> successfully connected to DB 
+2013-06-28 15:22:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 611, concat("2013-06-28 ", curtime()), 6, NULL) 
+2013-06-28 15:22:52 - DEBUG --> successfully connected to DB 
+2013-06-28 15:22:52 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 612, concat("2013-06-28 ", curtime()), 2, NULL) 
+2013-06-28 15:45:13 - DEBUG --> successfully connected to DB 
+2013-06-28 15:45:13 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 613, concat("2013-06-28 ", curtime()), 5, NULL) 
+2013-06-28 15:45:17 - DEBUG --> successfully connected to DB 
+2013-06-28 15:45:17 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 614, concat("2013-06-28 ", curtime()), 5, NULL) 
+2013-07-17 15:10:38 - DEBUG --> successfully connected to DB 
+2013-07-17 15:10:38 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 615, concat("2013-006-28 ", curtime()), 5, NULL) 
+2013-07-17 15:12:28 - DEBUG --> successfully connected to DB 
+2013-07-17 15:12:28 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 615, concat("2013-006-28 ", curtime()), 5, NULL) 
+2013-07-17 15:12:34 - DEBUG --> successfully connected to DB 
+2013-07-17 15:12:34 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 615, concat("2013-006-28 ", curtime()), 4, NULL) 
+2013-07-17 15:13:04 - DEBUG --> successfully connected to DB 
+2013-07-17 15:13:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 616, concat("2013-006-28 ", curtime()), 4, NULL) 
+2013-07-17 15:13:11 - DEBUG --> successfully connected to DB 
+2013-07-17 15:13:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 28, 617, concat("2013-006-28 ", curtime()), 3, NULL) 
+2013-07-19 14:13:46 - DEBUG --> successfully connected to DB 
+2013-07-19 14:13:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 79, concat("2013-07-19 ", curtime()), 4, NULL) 
+2013-07-19 14:13:46 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 79, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 14:26:43 - DEBUG --> successfully connected to DB 
+2013-07-19 14:26:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 80, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 14:26:43 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 80, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 14:33:35 - DEBUG --> successfully connected to DB 
+2013-07-19 14:33:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 82, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 14:33:35 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 82, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 14:43:31 - DEBUG --> successfully connected to DB 
+2013-07-19 14:43:31 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 144, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 14:43:31 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 144, concat("2013-07-19 ", curtime()), 4, NULL) 
+2013-07-19 14:55:41 - DEBUG --> successfully connected to DB 
+2013-07-19 14:55:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 84, concat("2013-07-19 ", curtime()), 4, NULL) 
+2013-07-19 14:55:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 84, concat("2013-07-19 ", curtime()), 4, NULL) 
+2013-07-19 15:04:32 - DEBUG --> successfully connected to DB 
+2013-07-19 15:04:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 86, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 15:04:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 86, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 15:18:32 - DEBUG --> successfully connected to DB 
+2013-07-19 15:18:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 88, concat("2013-07-19 ", curtime()), 4, NULL) 
+2013-07-19 15:18:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 88, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 15:41:21 - DEBUG --> successfully connected to DB 
+2013-07-19 15:41:21 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 90, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 15:41:21 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 90, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-19 15:41:28 - DEBUG --> successfully connected to DB 
+2013-07-19 15:41:28 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 101, 91, concat("2013-07-19 ", curtime()), 2, NULL) 
+2013-07-19 15:41:28 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 91, concat("2013-07-19 ", curtime()), 3, NULL) 
+2013-07-29 16:02:51 - DEBUG --> successfully connected to DB 
+2013-07-29 16:02:51 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 1, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 16:02:51 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 1, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:02:51 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 1, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 16:10:07 - DEBUG --> successfully connected to DB 
+2013-07-29 16:10:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 2, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:10:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 2, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 16:10:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 2, concat("2013-07-29 ", curtime()), 2, NULL) 
+2013-07-29 16:13:50 - DEBUG --> successfully connected to DB 
+2013-07-29 16:13:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 6, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:13:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 6, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:13:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 6, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:19:15 - DEBUG --> successfully connected to DB 
+2013-07-29 16:19:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 7, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 16:19:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 7, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 16:19:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 7, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:24:32 - DEBUG --> successfully connected to DB 
+2013-07-29 16:24:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 8, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 16:24:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 8, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 16:24:32 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 8, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:29:36 - DEBUG --> successfully connected to DB 
+2013-07-29 16:29:36 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 9, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:29:36 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 9, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:29:36 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 9, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:37:45 - DEBUG --> successfully connected to DB 
+2013-07-29 16:37:45 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 10, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:37:45 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 10, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 16:37:45 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 10, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:42:27 - DEBUG --> successfully connected to DB 
+2013-07-29 16:42:27 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 11, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:42:27 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 11, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:42:27 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 11, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 16:54:41 - DEBUG --> successfully connected to DB 
+2013-07-29 16:54:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 12, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:54:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 12, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:54:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 12, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:55:05 - DEBUG --> successfully connected to DB 
+2013-07-29 16:55:05 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 13, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:55:05 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 13, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 16:55:05 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 13, concat("2013-07-29 ", curtime()), 2, NULL) 
+2013-07-29 17:04:57 - DEBUG --> successfully connected to DB 
+2013-07-29 17:04:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 14, concat("2013-07-29 ", curtime()), 2, NULL) 
+2013-07-29 17:04:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 14, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 17:04:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 14, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 17:05:04 - DEBUG --> successfully connected to DB 
+2013-07-29 17:05:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 15, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 17:05:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 15, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 17:05:04 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 15, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 17:12:12 - DEBUG --> successfully connected to DB 
+2013-07-29 17:12:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 16, concat("2013-07-29 ", curtime()), 5, NULL) 
+2013-07-29 17:12:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 16, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 17:12:12 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 16, concat("2013-07-29 ", curtime()), 5, NULL) 
+2013-07-29 17:21:11 - DEBUG --> successfully connected to DB 
+2013-07-29 17:21:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 17, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 17:21:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 17, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-07-29 17:21:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 17, concat("2013-07-29 ", curtime()), 5, NULL) 
+2013-07-29 17:29:15 - DEBUG --> successfully connected to DB 
+2013-07-29 17:29:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 18, concat("2013-07-29 ", curtime()), 4, NULL) 
+2013-07-29 17:29:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 18, concat("2013-07-29 ", curtime()), 5, NULL) 
+2013-07-29 17:29:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 18, concat("2013-07-29 ", curtime()), 3, NULL) 
+2013-08-04 13:24:38 - DEBUG --> successfully connected to DB 
+2013-08-04 13:24:38 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 39, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 13:24:38 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 39, concat("2013-08-04 ", curtime()), 2, NULL) 
+2013-08-04 13:24:38 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 39, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 13:25:05 - DEBUG --> successfully connected to DB 
+2013-08-04 13:25:05 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 56, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 13:25:05 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 56, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 13:25:05 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 56, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 13:37:31 - DEBUG --> successfully connected to DB 
+2013-08-04 13:37:31 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 58, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 13:37:31 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 58, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 13:37:31 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 58, concat("2013-08-04 ", curtime()), 5, NULL) 
+2013-08-04 13:54:48 - DEBUG --> successfully connected to DB 
+2013-08-04 13:54:48 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 60, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 13:54:48 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 60, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 13:54:48 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 60, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 13:54:58 - DEBUG --> successfully connected to DB 
+2013-08-04 13:54:58 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 61, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 13:54:58 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 61, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 13:54:58 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 61, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 13:56:01 - DEBUG --> successfully connected to DB 
+2013-08-04 13:56:01 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 62, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 13:56:01 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 62, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 13:56:01 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 62, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:00:05 - DEBUG --> successfully connected to DB 
+2013-08-04 14:00:05 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 63, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:00:05 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 63, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 14:00:05 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 63, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:08:33 - DEBUG --> successfully connected to DB 
+2013-08-04 14:08:33 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 64, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:08:33 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 64, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:08:33 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 64, concat("2013-08-04 ", curtime()), 2, NULL) 
+2013-08-04 14:17:49 - DEBUG --> successfully connected to DB 
+2013-08-04 14:17:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 66, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:17:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 66, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 14:17:49 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 66, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:18:07 - DEBUG --> successfully connected to DB 
+2013-08-04 14:18:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 67, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:18:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 67, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 14:18:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 67, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 14:32:50 - DEBUG --> successfully connected to DB 
+2013-08-04 14:32:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 68, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 14:32:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 68, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:32:50 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 68, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:33:29 - DEBUG --> successfully connected to DB 
+2013-08-04 14:33:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 70, concat("2013-08-04 ", curtime()), 2, NULL) 
+2013-08-04 14:33:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 70, concat("2013-08-04 ", curtime()), 2, NULL) 
+2013-08-04 14:33:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 70, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:47:53 - DEBUG --> successfully connected to DB 
+2013-08-04 14:47:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 71, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:47:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 71, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:47:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 71, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:48:48 - DEBUG --> successfully connected to DB 
+2013-08-04 14:48:48 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 73, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 14:48:48 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 73, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 14:48:48 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 73, concat("2013-08-04 ", curtime()), 4, NULL) 
+2013-08-04 15:00:42 - DEBUG --> successfully connected to DB 
+2013-08-04 15:00:42 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 74, concat("2013-08-04 ", curtime()), 6, NULL) 
+2013-08-04 15:00:42 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 74, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 15:00:42 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 74, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 15:01:15 - DEBUG --> successfully connected to DB 
+2013-08-04 15:01:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 75, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 15:01:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 75, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 15:01:15 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 75, concat("2013-08-04 ", curtime()), 2, NULL) 
+2013-08-04 16:53:41 - DEBUG --> successfully connected to DB 
+2013-08-04 16:53:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 76, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 16:53:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 76, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-08-04 16:53:41 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 76, concat("2013-08-04 ", curtime()), 3, NULL) 
+2013-09-20 15:10:59 - DEBUG --> successfully connected to DB 
+2013-09-20 15:10:59 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 1, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 15:11:00 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 1, concat("2013-09-20 ", curtime()), 5, NULL) 
+2013-09-20 15:11:00 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 1, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 15:22:11 - DEBUG --> successfully connected to DB 
+2013-09-20 15:22:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 2, concat("2013-09-20 ", curtime()), 2, NULL) 
+2013-09-20 15:22:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 2, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 15:22:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 2, concat("2013-09-20 ", curtime()), 2, NULL) 
+2013-09-20 15:22:25 - DEBUG --> successfully connected to DB 
+2013-09-20 15:22:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 6, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 15:22:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 6, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 15:22:25 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 6, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 15:44:11 - DEBUG --> successfully connected to DB 
+2013-09-20 15:44:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 7, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 15:44:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 7, concat("2013-09-20 ", curtime()), 5, NULL) 
+2013-09-20 15:44:11 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 7, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 15:44:17 - DEBUG --> successfully connected to DB 
+2013-09-20 15:44:17 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 8, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 15:44:17 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 8, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 15:44:17 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 8, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 15:50:07 - DEBUG --> successfully connected to DB 
+2013-09-20 15:50:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 9, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 15:50:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 9, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 15:50:07 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 9, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 15:56:26 - DEBUG --> successfully connected to DB 
+2013-09-20 15:56:26 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 10, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 15:56:26 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 10, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 15:56:26 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 10, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 16:05:34 - DEBUG --> successfully connected to DB 
+2013-09-20 16:05:34 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 11, concat("2013-09-20 ", curtime()), 5, NULL) 
+2013-09-20 16:05:34 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 11, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:05:34 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 11, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:23:53 - DEBUG --> successfully connected to DB 
+2013-09-20 16:23:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 12, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:23:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 12, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:23:53 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 12, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:23:57 - DEBUG --> successfully connected to DB 
+2013-09-20 16:23:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 13, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:23:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 13, concat("2013-09-20 ", curtime()), 2, NULL) 
+2013-09-20 16:23:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 13, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:25:14 - DEBUG --> successfully connected to DB 
+2013-09-20 16:25:14 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 14, concat("2013-09-20 ", curtime()), 2, NULL) 
+2013-09-20 16:25:14 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 14, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:25:14 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 14, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:30:29 - DEBUG --> successfully connected to DB 
+2013-09-20 16:30:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 15, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:30:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 15, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:30:29 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 15, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:39:10 - DEBUG --> successfully connected to DB 
+2013-09-20 16:39:10 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 16, concat("2013-09-20 ", curtime()), 6, NULL) 
+2013-09-20 16:39:10 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 16, concat("2013-09-20 ", curtime()), 6, NULL) 
+2013-09-20 16:39:10 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 16, concat("2013-09-20 ", curtime()), 7, NULL) 
+2013-09-20 16:45:57 - DEBUG --> successfully connected to DB 
+2013-09-20 16:45:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 17, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:45:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 17, concat("2013-09-20 ", curtime()), 3, NULL) 
+2013-09-20 16:45:57 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 17, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 16:51:09 - DEBUG --> successfully connected to DB 
+2013-09-20 16:51:09 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 2, 18, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 16:51:09 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 3, 18, concat("2013-09-20 ", curtime()), 4, NULL) 
+2013-09-20 16:51:09 - DEBUG --> DBConnection.query: query=insert into score values(NULL, 1, 18, concat("2013-09-20 ", curtime()), 4, NULL) 

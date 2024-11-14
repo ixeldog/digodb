@@ -1,0 +1,58 @@
+[25-Apr-2013 23:13:41 UTC] PHP Notice:  Undefined index: jsEnabled in C:\xampp\htdocs\golf\login\loginActions.php on line 66
+[25-Apr-2013 23:13:41 UTC] PHP Notice:  Undefined index: selectPlayers in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 35
+[25-Apr-2013 23:13:41 UTC] PHP Notice:  Undefined index: dateDay in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 43
+[25-Apr-2013 23:13:41 UTC] PHP Notice:  Undefined index: dateMonth in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 44
+[25-Apr-2013 23:13:41 UTC] PHP Notice:  Undefined index: dateYear in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 45
+[25-Apr-2013 23:13:45 UTC] PHP Notice:  Undefined index: jsEnabled in C:\xampp\htdocs\golf\login\loginActions.php on line 66
+[25-Apr-2013 23:13:45 UTC] PHP Notice:  Undefined index: selectPlayers in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 35
+[25-Apr-2013 23:13:45 UTC] PHP Notice:  Undefined index: dateDay in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 43
+[25-Apr-2013 23:13:45 UTC] PHP Notice:  Undefined index: dateMonth in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 44
+[25-Apr-2013 23:13:45 UTC] PHP Notice:  Undefined index: dateYear in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 45
+[25-Apr-2013 23:13:48 UTC] PHP Notice:  Undefined index: searchOrderBy in C:\xampp\htdocs\golf\findPastScores.php on line 166
+[25-Apr-2013 23:13:53 UTC] PHP Notice:  Undefined index: jsEnabled in C:\xampp\htdocs\golf\login\loginActions.php on line 66
+[25-Apr-2013 23:13:53 UTC] PHP Notice:  Undefined index: selectPlayers in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 35
+[25-Apr-2013 23:13:53 UTC] PHP Notice:  Undefined index: dateDay in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 43
+[25-Apr-2013 23:13:53 UTC] PHP Notice:  Undefined index: dateMonth in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 44
+[25-Apr-2013 23:13:53 UTC] PHP Notice:  Undefined index: dateYear in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 45
+[25-Apr-2013 23:13:54 UTC] PHP Notice:  Undefined index: searchOrderBy in C:\xampp\htdocs\golf\findPastScores.php on line 166
+[25-Apr-2013 23:14:09 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:09 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:11 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:11 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:12 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:12 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:24 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:24 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:26 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:26 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:27 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:27 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:29 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:29 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:30 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:30 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:35 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:35 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\golf\saveNewScores.php on line 21
+[25-Apr-2013 23:14:39 UTC] PHP Notice:  Undefined index: searchOrderBy in C:\xampp\htdocs\golf\findPastScores.php on line 166
+[25-Apr-2013 23:14:51 UTC] PHP Notice:  Undefined index: jsEnabled in C:\xampp\htdocs\golf\login\loginActions.php on line 66
+[25-Apr-2013 23:14:51 UTC] PHP Notice:  Undefined index: selectPlayers in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 35
+[25-Apr-2013 23:14:52 UTC] PHP Notice:  Undefined index: dateDay in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 43
+[25-Apr-2013 23:14:52 UTC] PHP Notice:  Undefined index: dateMonth in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 44
+[25-Apr-2013 23:14:52 UTC] PHP Notice:  Undefined index: dateYear in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 45
+[25-Apr-2013 23:14:53 UTC] PHP Notice:  Undefined index: searchOrderBy in C:\xampp\htdocs\golf\findPastScores.php on line 166
+[26-Apr-2013 02:09:33 UTC] PHP Notice:  Undefined index: jsEnabled in C:\xampp\htdocs\golf\login\loginActions.php on line 66
+[26-Apr-2013 02:09:33 UTC] PHP Notice:  Undefined index: selectPlayers in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 35
+[26-Apr-2013 02:09:33 UTC] PHP Notice:  Undefined index: dateDay in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 43
+[26-Apr-2013 02:09:33 UTC] PHP Notice:  Undefined index: dateMonth in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 44
+[26-Apr-2013 02:09:33 UTC] PHP Notice:  Undefined index: dateYear in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 45
+[26-Apr-2013 02:09:36 UTC] PHP Notice:  Undefined index: searchOrderBy in C:\xampp\htdocs\golf\findPastScores.php on line 166
+[26-Apr-2013 02:09:38 UTC] PHP Notice:  Undefined index: selectPlayers in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 35
+[27-Apr-2013 00:59:45 UTC] PHP Warning:  mysql_connect(): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\golf\db\DBConnection.php on line 23
+[27-Apr-2013 02:06:06 UTC] PHP Notice:  Undefined index: jsEnabled in C:\xampp\htdocs\golf\login\loginActions.php on line 66
+[27-Apr-2013 02:06:06 UTC] PHP Notice:  Undefined index: selectPlayers in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 35
+[27-Apr-2013 02:06:06 UTC] PHP Notice:  Undefined index: dateDay in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 43
+[27-Apr-2013 02:06:06 UTC] PHP Notice:  Undefined index: dateMonth in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 44
+[27-Apr-2013 02:06:06 UTC] PHP Notice:  Undefined index: dateYear in C:\xampp\htdocs\golf\setCoursePlayersDate.php on line 45
+[27-Apr-2013 02:06:10 UTC] PHP Notice:  Undefined index: searchOrderBy in C:\xampp\htdocs\golf\findPastScores.php on line 166
+[27-Apr-2013 02:10:57 UTC] PHP Notice:  Undefined index: statsOrderBy in C:\xampp\htdocs\golf\userStats.php on line 187

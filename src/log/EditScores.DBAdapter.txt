@@ -1,0 +1,21 @@
+2013-04-29 18:23:53 - DEBUG --> editScore: ID=8226 newValue=5 
+2013-04-29 18:23:59 - DEBUG --> editScore: ID=8229 newValue=4 
+2013-04-29 21:07:01 - DEBUG --> deleteScores: scoreID=8256 
+2013-04-30 17:36:13 - DEBUG --> deleteScores: scoreID=8258 
+2013-04-30 17:36:38 - DEBUG --> deleteScores: scoreID=8257 
+2013-05-13 7:13:26 - DEBUG --> deleteScores: scoreID=8174 
+2013-05-17 13:21:44 - DEBUG --> editScore: ID=8193 newValue=4 
+2013-05-17 14:13:08 - DEBUG --> editScore: ID=8209 newValue=4 
+2013-05-18 12:23:04 - DEBUG --> editScore: ID=8221 newValue=3 
+2013-05-26 9:20:06 - DEBUG --> editScore: ID=8247 newValue=4 
+2013-05-26 12:52:05 - DEBUG --> deleteScores: scoreID=8248 
+2013-05-26 12:52:13 - DEBUG --> deleteScores: scoreID=8247 
+2013-06-14 14:36:06 - DEBUG --> editScore: ID=8269 newValue=2 
+2013-06-22 13:13:18 - DEBUG --> editScore: ID=8343 newValue=3 
+2013-06-23 18:04:26 - DEBUG --> editScore: ID=8383 newValue=4 
+2013-06-23 18:07:55 - DEBUG --> editScore: ID=8387 newValue=3 
+2013-06-23 18:08:05 - DEBUG --> editScore: ID=8388 newValue=2 
+2013-06-28 14:40:08 - DEBUG --> editScore: ID=8399 newValue=5 
+2013-07-17 15:11:10 - DEBUG --> deleteScores: scoreID=8410 
+2013-07-17 15:12:50 - DEBUG --> deleteScores: scoreID=8412 
+2013-09-20 16:06:18 - DEBUG --> editScore: ID=8550 newValue=6 

@@ -1,0 +1,14 @@
+.player0 { background-color:#C0F6C2}
+.player1 { background-color:#C1C5F1}
+.player2 { background-color:#FAFF94}
+.player3 { background-color:#FCBBBB}
+.player4 { background-color:#F0CF91}
+.player5 { background-color:#E4BBFC}
+
+.teeboxRED { background-color:#FFEAEA;}
+.teeboxBLUE { background-color:#E9E9FF;}
+.teeboxBLACK { background-color:#C2C2C2; color:#FFFFFF;}
+.teeboxGOLD { background-color:#FFF2AE;}
+.teeboxSILVER { background-color:#E6E8FA;}
+.teeboxWHITE { background-color:#FFFFFF;}
+.teeboxNONE { visibility:hidden;}

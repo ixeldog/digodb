@@ -1,0 +1,357 @@
+<?php
+	session_start();
+	
+	$root = realpath($_SERVER["DOCUMENT_ROOT"]) . "/";
+	require_once $root . 'login/AuthHeader.php';
+	require_once $root . 'lib/KLogger.php';
+	require_once $root . "db/DBConnection.php";
+	require_once $root . "db/DBAdapter.php";
+	require_once $root . 'utils/golfUtil.php';
+	require_once $root . "model/player.php";
+	
+	$log = new KLogger($root . "log/findPastScores.txt" , KLogger::DEBUG );
+	$logPrefix = "findPastScores: ";
+	$dbConn = new DBConnection(new KLogger($root . "log/FindPastScores.DBConnection.txt", KLogger::DEBUG));
+	$dbAdapter = new DBAdapter($dbConn, new KLogger($root . "log/FindPastScores.DBAdapter.txt", KLogger::DEBUG));
+	$golfUtil = new golfUtil($dbAdapter, new KLogger($root . "log/FindPastScores.golfUtil.txt", KLogger::DEBUG));
+	
+	foreach ($_REQUEST as $a => $b) {
+		if (is_array($b)) {
+			$log->LogDebug($logPrefix . "\$_REQUEST[" . $a . "] = " . implode(",", $b));
+		} else {
+			$log->LogDebug($logPrefix . "\$_REQUEST[" . $a . "] = " . $b);
+		}
+	}
+	foreach ($_SESSION as $a => $b) {
+		if (is_array($b)) {				
+			$log->LogDebug($logPrefix . "\$_SESSION[" . $a . "] = " . implode(",", $b));
+		} else {
+			$log->LogDebug($logPrefix . "\$_SESSION[" . $a . "] = " . $b);
+		}
+	}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	<link rel="stylesheet" type="text/css" href="styles/scoreStyles.css" />
+	<link rel="stylesheet" type="text/css" href="styles/statsStyles.css"
+	
+	<!-- should course and date be on two lines or one? -->
+	<style type="text/css">
+		.courseNameInLink { display:block; }
+		@media only screen and (min-width:500px) {
+			.courseNameInLink { display:inline; }
+		}
+	</style>
+	
+	<title>Find past scores</title>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="jslib/enableSubmitButton.js"></script>
+	<script type="text/javascript" src="jslib/findPastScoresController.js"></script>
+</head>
+
+<body>
+
+	<div><?php include "menuItems.php"; ?></div>
+	<div class="blockHeader">Select Search Criteria</div>
+	<!--select players-->
+	<form action="findPastScores.php">
+		<span style="font-weight:bold;">Player(s):</span>
+		<select id="findScoresSelectPlayers" name="findScoresSelectPlayers[]" multiple="multiple"
+			title="ctrl+click to select multiple" class="enableSubmitButton">
+			<?php
+				$selectedPlayers = isset($_REQUEST['findScoresSelectPlayers']) ?
+					$_REQUEST['findScoresSelectPlayers'] :
+					$_SESSION['selectedPlayers'];
+				$selectedPlayerNames = $golfUtil->getPlayerIDToNameMap($selectedPlayers);
+				echo "<option value=\"" . $_SESSION['currentUserID'] . "\"";
+				//if no users selected yet on this page or have selected users and current user is one
+				if (isset($_REQUEST['findScoresSelectPlayers']) == false ||
+					isset($selectedPlayerNames[$_SESSION['currentUserID']])) {
+					echo " selected=\"selected\"";
+				}
+				echo ">" . $_SESSION['playerIdToNameMap'][$_SESSION['currentUserID']] . "</option>\n";
+				echo $golfUtil->getPeopleWhoHaveFriendedCurrentUser($_SESSION["currentUserID"], $selectedPlayerNames);
+			?>
+		</select>
+		<br />
+		<span style="font-weight:bold;">Course:</span>
+		<select id="searchByCourse" name="searchByCourse" class="enableSubmitButton">
+			<?php
+				$selectedCourse = null;
+				if (isset($_REQUEST['searchByCourse']) && strlen($_REQUEST['searchByCourse']) > 0) {
+					$selectedCourse = $_REQUEST['searchByCourse'];
+					$selectedCourse = ($selectedCourse == "ALL_COURSES") ? "" : $selectedCourse;
+				} else if (isset($_SESSION['selectedCourse']) &&
+					strlen($_SESSION['selectedCourse']) > 0 &&
+					$_SESSION['selectedCourse'] != "NULL") {
+					$selectedCourse = $_SESSION['selectedCourse'];
+				}
+				//if have a course to filter search by
+				if ($selectedCourse != null) {
+					echo "<option value=\"ALL_COURSES\">All Courses</option>\n";	
+				}
+				//if don't have a course to filter search by
+				else {
+					echo "<option value=\"ALL_COURSES\" selected=\"selected\">All Courses</option>\n";
+				}
+				echo $golfUtil->getCoursesSelectBox($selectedCourse);
+			?>
+		</select>
+		<br />
+		
+		<span style="font-weight:bold;">Order by:</span>
+		<select id="searchOrderBy" name="searchOrderBy" class="enableSubmitButton">
+			<?php
+				$submittedOrderBy = $_REQUEST['searchOrderBy'];
+				$html = "<option value=\"ORDER_BY_DATE\"";
+				if ($submittedOrderBy == "ORDER_BY_DATE") {
+					$html .= " selected=\"selected\"";
+				}
+				$html .= ">Date</option><option value=\"ORDER_BY_COURSE\"";
+				if ($submittedOrderBy == "ORDER_BY_COURSE") {
+					$html .= " selected=\"selected\""; 
+				}
+				$html .= ">Course</option>";
+				echo $html;
+			?>
+		</select>
+		<br />
+		
+		<span style="font-weight:bold;">Layout</span>
+		<select id="tableLayout" name="tableLayout" class="enableSubmitButton">
+			<?php
+				$tableLayout = "ONE_COLUMN";
+				if (isset($_REQUEST['tableLayout']) && $_REQUEST['tableLayout'] == "COLUMN_EACH") {
+					echo "<option value=\"ONE_COLUMN\" selected=\"selected\">One Column</option>\n";
+					echo "<option value=\"COLUMN_EACH\">1 Column Each</option>\n";
+				} else {
+					$tableLayout = "COLUMN_EACH";
+					echo "<option value=\"ONE_COLUMN\">One Column</option>\n";
+					echo "<option value=\"COLUMN_EACH\" selected=\"selected\">1 Column Each</option>\n";
+				}
+			?>
+		</select>
+		<br />
+		
+		<input id="submitSearchOptions" type="submit" value="Filter search results" />
+		<br />
+	
+	</form>
+
+	<div class="blockHeader">Past Scores</div>
+	<table border="1">
+	
+		<?php
+		
+			$result = $dbAdapter->getPastScores(
+				$selectedPlayers,
+				$selectedCourse,
+				$_REQUEST['searchOrderBy']
+			);
+			
+			$tableHTML = "";
+			
+			$prevDate = null;
+			$prevCourse = null;
+			$curDate = null;
+			$curCourse = null;
+			$entryLink = null;
+			//$playerNames = array(); // { "57":"Player1", "59":"player 2", "56", "Bob"}
+			//$playerTotals = array(); // [ 57, 59, 56 ]
+			
+			//{ "playerID":[nameHTML, scoreMinusPar, scoreHTML], "42":["<div>...", 3, "<div>..."]}
+			$players = array();
+			$playerColors = array();
+			$numScores = null;
+			$numPlayers = 0;
+			
+			//used to set colors for scores
+			$scores = array(); //$scores[course_name] = [62:true, 64:true, ...]
+			$minScores = array(); //$minScores[course_name] == minScore
+			$maxScores = array(); //$maxScores[course_name] == maxScore
+			
+			//used to find total average for course for all shown players 
+			$courseTotals = array(); //$courseTotals[course_name] == courseTotal
+			$courseNumScores = array(); //$courseNumScores[course_name] == #scores
+			
+			while ($row = $dbAdapter->getRow($result)) {
+				$curCourse = $row['course_name'];
+				$curDate = $row['time'];
+				
+				//if course or date has changed (or if first course/date)
+				if ($curCourse != $prevCourse || $curDate != $prevDate) {
+					//if not the first course/date then print previous
+					if ($entryLink != null) {
+						//echo getTableRow($entryLink, $prevCourse, $prevDate, $playerNames, $playerTotals, $numScores);
+						//echo getTableRow($entryLink, $prevCourse, $prevDate, $players, $numScores, $playerColors);
+						$tableHTML .= getTableRow($entryLink, $prevCourse, $prevDate, $players, $numScores, $playerColors);
+					}
+					
+					$dateArray = preg_split("/[-]/", $curDate);
+					$entryLink = "setCoursePlayersDate.php?PHPSESSID=" . session_id() . "&returnPage=index.php";
+					$entryLink .= "&selectCourse=" . $row['course_id'];
+					$entryLink .= "&dateYear=" . $dateArray[0] . "&dateMonth=" . $dateArray[1] . "&dateDay=" . $dateArray[2];
+					
+					//$playerNames = array();
+					//$playerTotals = array();
+					$players = array();
+					$numScores++;
+				}
+				$prevCourse = $curCourse;
+				$prevDate = $curDate;
+				
+				//don't need to set logged in user - they will always be added
+				if ($row['player_id'] != $_SESSION['currentUserID']) {
+					$entryLink .= "&selectPlayers%5B%5D=" . $row['player_id'];
+				}
+				
+				//set values used to color scores
+				$curCourseID = $row['course_id'];
+				$scoreMinusPar = $row['score'] - $row['par'];
+				if (isset($scores[$curCourseID]) == false) {
+					$scores[$curCourseID] = array();
+				}
+				if (isset($courseTotals[$curCourseID]) == false) {
+					$courseTotals[$curCourseID] = 0;
+				}
+				$courseTotals[$curCourseID] += $scoreMinusPar;
+				if (isset($courseNumScores[$curCourseID]) == false) {
+					$courseNumScores[$curCourseID] = 0;
+				}
+				$courseNumScores[$curCourseID] += 1;
+				
+				//find min and max scores for course
+				$scores[$curCourseID][$scoreMinusPar] = true;
+				if (isset($minScores[$curCourseID]) == false ||
+					$minScores[$curCourseID] > ($scoreMinusPar)) {
+					$minScores[$curCourseID] = $scoreMinusPar;
+				}
+				if (isset($maxScores[$curCourseID]) == false ||
+					$maxScores[$curCourseID] < ($scoreMinusPar)) {
+					$maxScores[$curCourseID] = ($scoreMinusPar);						
+				}
+				
+				//$playerName = "<div>" . $row['player_display_name'] . "</div>";
+				$playerName = $row['player_display_name'];
+				$playerTotal = "<div class=\"_" . $curCourseID . "_" . ($scoreMinusPar);
+				
+				$playerTotal .= "\">&nbsp;" . $row['score'] . " (<span style=\"font-weight:bold;\">";
+				$tempTotal = ($scoreMinusPar);
+				if ($tempTotal > 0) $tempTotal = "+" . $tempTotal;
+				else if ($tempTotal == 0) $tempTotal = "E";
+				$playerTotal .= $tempTotal . "</span>) - " . $row['numHoles'] . "</div>";
+				$players[$row['player_id']] = array("name"=>$playerName,
+					"scoreMinusPar"=>$scoreMinusPar,
+					"total"=>$playerTotal);
+				if (isset($playerColors[$row['player_id']]) == false) {
+					$playerColors[$row['player_id']] = $numPlayers;
+					$numPlayers++;
+				}
+			}
+			//need to display last table row created (if there is one)
+			if ($entryLink != null) {
+				//echo getTableRow($entryLink, $curCourse, $curDate, $playerNames, $playerTotals, $numScores);
+				//echo getTableRow($entryLink, $curCourse, $curDate, $players, $numScores, $playerColors);
+				$tableHTML .= getTableRow($entryLink, $prevCourse, $prevDate, $players, $numScores, $playerColors);
+			}
+
+			$log->LogDebug($logPrefix . "finished\n");
+			$dbAdapter->close();
+			
+			//function getTableRow($entryLink, $course, $date, $playerNames, $playerTotals, $numScores) {
+			function getTableRow($entryLink, $course, $date, $players, $numScores, $playerColors) {
+				$curClass = "";
+				if ($numScores % 2 == 0) {
+					$curClass = "scoreAlt";
+				}
+				$tableRow = "<tr class=\"" . $curClass . "\">";
+				$tableRow .= "<td style=\"text-align:center;\">";
+				$tableRow .= "<a href=\"" . $entryLink . "\"><div class=\"courseNameInLink\">" . $course . "&nbsp;</div>" . $date . "</a></td>";
+				//$tableRow .= "<td>" . $playerNames . "</td><td>" . $playerTotals . "</td></tr>\n";
+				
+				$playerNames = "";
+				$playerTotals = ""; 
+				$lowScore = null;
+				$totalPlayers = count($players);
+				
+				//removes an entry from $players upon every iteration
+				
+				for ($numPlayers = 0; count($players) > 0; $numPlayers++) {
+					//ONE_COLUMN layout:key of minimum score, COLUMN_EACH layout: key of current user then other players alphabetical
+					$curKey = null;
+					if ($tableLayout == "ONE_COLUMN") {
+						foreach ($players as $a => $b) {
+							if ($curKey == null || $b["scoreMinusPar"] < $players[$curKey]["scoreMinusPar"]) {
+								$curKey = $a;
+							}
+						}
+					} else {
+						if (isset($players[$_SESSION['currentUserID']])) {
+							$curKey = $_SESSION['currentUserID'];
+						} else {
+							reset($array);
+							$curKey = key($array);
+						}
+					}
+					
+					//if multiple players and is first player (lowest score) || currentScore==lowestScore (tied for first)
+					if ($totalPlayers > 1 &&
+						($numPlayers == 0 || $players[$curKey]["scoreMinusPar"] == $lowScore)) {
+						$playerNames .= "<div class=\"player" . $playerColors[$curKey] .
+							"\">" . $players[$curKey]["name"] . "</div>\n";
+						$lowScore = $players[$curKey]["scoreMinusPar"];
+					} else {
+						//$playerNames .= "<div class=\"player5\">" . $players[$curKey]["name"] . "</div>\n";
+						$playerNames .= "<div>" . $players[$curKey]["name"] . "</div>\n";
+					}
+					$playerTotals .= $players[$curKey]["total"];
+					unset($players[$curKey]);
+				}
+				$tableRow .= "<td>" . $playerNames . "</td><td>" . $playerTotals . "</td></tr>\n";
+				
+				//$tableRow .= "<tr class=\"" . $curClass . "\"><td colspan=\"3\" style=\"text-align:right;\"><a href=\"" . $entryLink . "\">" . $prevDate . "</a></td></tr>\n";
+				return $tableRow;
+			}
+		?>
+	
+	</table>
+	
+	<?php
+		echo "<style type=\"text/css\">\n";
+		foreach ($scores as $a => $b) {
+			if (isset($minScores[$a]) && isset($maxScores[$a]) &&
+				$minScores[$a] != $maxScores[$a])
+			{
+				//$maxToReduceBy = 255;
+				$maxToReduceBy = 150;
+				$average = $courseTotals[$a] / $courseNumScores[$a];
+				foreach ($b as $c => $d) {
+					$red = $green = $blue = 255;
+					$diff = $average - $c;
+					if ($diff < 0) {
+						$diff = $diff * -1;
+						$diff = $diff / ($maxScores[$a] - $average);
+						$green = $blue = 255 - floor($maxToReduceBy * $diff);
+					} else if ($diff > 0) {
+						$diff = $diff / ($average - $minScores[$a]);
+						$red = 255 - floor($maxToReduceBy * $diff);
+						$green = 255 - (floor($maxToReduceBy * $diff * .25));
+					}
+					echo "._" . $a . "_" . $c . "{background-color:rgb(" .
+						$red . "," . $green . "," . $blue . ");}\n";
+				}
+			}
+		}
+		echo "</style>\n";
+	?>
+	
+	<div class="blockHeader">&nbsp;</div>
+	<div><?php include "menuItems.php"; ?></div>
+	<br /><br />
+</body>
+</html>

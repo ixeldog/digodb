@@ -1,0 +1,46 @@
+2013-04-29 18:23:53 - DEBUG --> successfully connected to DB 
+2013-04-29 18:23:53 - DEBUG --> DBConnection.query: query=update score set score = 5 where score_id = 8226 
+2013-04-29 18:23:59 - DEBUG --> successfully connected to DB 
+2013-04-29 18:23:59 - DEBUG --> DBConnection.query: query=update score set score = 4 where score_id = 8229 
+2013-04-29 21:07:01 - DEBUG --> successfully connected to DB 
+2013-04-29 21:07:01 - DEBUG --> DBConnection.query: query=delete from score where score_id = 8256 
+2013-04-29 21:07:20 - DEBUG --> successfully connected to DB 
+2013-04-29 21:07:20 - DEBUG --> DBConnection.query: query=update score set hole_id = (select h.hole_id from hole h, (select * from hole where hole_id = (select hole_id from score where score_id = 8253)) as x where h.course_id = x.course_id and h.hole_number = x.hole_number and h.teebox = x.teebox and h.pin_location = 'left') where score_id = 8253 
+2013-04-30 17:36:13 - DEBUG --> successfully connected to DB 
+2013-04-30 17:36:13 - DEBUG --> DBConnection.query: query=delete from score where score_id = 8258 
+2013-04-30 17:36:38 - DEBUG --> successfully connected to DB 
+2013-04-30 17:36:38 - DEBUG --> DBConnection.query: query=delete from score where score_id = 8257 
+2013-05-13 7:13:00 - DEBUG --> successfully connected to DB 
+2013-05-13 7:13:00 - DEBUG --> DBConnection.query: query=update score set hole_id = (select h.hole_id from hole h, (select * from hole where hole_id = (select hole_id from score where score_id = 8174)) as x where h.course_id = x.course_id and h.hole_number = x.hole_number and (h.pin_location = x.pin_location or (h.pin_location is null and x.pin_location is null)) and h.teebox = 4) where score_id = 8174 
+2013-05-13 7:13:26 - DEBUG --> successfully connected to DB 
+2013-05-13 7:13:26 - DEBUG --> DBConnection.query: query=delete from score where score_id = 8174 
+2013-05-17 13:21:44 - DEBUG --> successfully connected to DB 
+2013-05-17 13:21:44 - DEBUG --> DBConnection.query: query=update score set score = 4 where score_id = 8193 
+2013-05-17 14:13:08 - DEBUG --> successfully connected to DB 
+2013-05-17 14:13:08 - DEBUG --> DBConnection.query: query=update score set score = 4 where score_id = 8209 
+2013-05-18 12:23:04 - DEBUG --> successfully connected to DB 
+2013-05-18 12:23:04 - DEBUG --> DBConnection.query: query=update score set score = 3 where score_id = 8221 
+2013-05-26 9:20:06 - DEBUG --> successfully connected to DB 
+2013-05-26 9:20:06 - DEBUG --> DBConnection.query: query=update score set score = 4 where score_id = 8247 
+2013-05-26 12:52:05 - DEBUG --> successfully connected to DB 
+2013-05-26 12:52:05 - DEBUG --> DBConnection.query: query=delete from score where score_id = 8248 
+2013-05-26 12:52:13 - DEBUG --> successfully connected to DB 
+2013-05-26 12:52:13 - DEBUG --> DBConnection.query: query=delete from score where score_id = 8247 
+2013-06-14 14:36:06 - DEBUG --> successfully connected to DB 
+2013-06-14 14:36:06 - DEBUG --> DBConnection.query: query=update score set score = 2 where score_id = 8269 
+2013-06-22 13:13:18 - DEBUG --> successfully connected to DB 
+2013-06-22 13:13:18 - DEBUG --> DBConnection.query: query=update score set score = 3 where score_id = 8343 
+2013-06-23 18:04:26 - DEBUG --> successfully connected to DB 
+2013-06-23 18:04:26 - DEBUG --> DBConnection.query: query=update score set score = 4 where score_id = 8383 
+2013-06-23 18:07:55 - DEBUG --> successfully connected to DB 
+2013-06-23 18:07:55 - DEBUG --> DBConnection.query: query=update score set score = 3 where score_id = 8387 
+2013-06-23 18:08:05 - DEBUG --> successfully connected to DB 
+2013-06-23 18:08:05 - DEBUG --> DBConnection.query: query=update score set score = 2 where score_id = 8388 
+2013-06-28 14:40:08 - DEBUG --> successfully connected to DB 
+2013-06-28 14:40:08 - DEBUG --> DBConnection.query: query=update score set score = 5 where score_id = 8399 
+2013-07-17 15:11:10 - DEBUG --> successfully connected to DB 
+2013-07-17 15:11:10 - DEBUG --> DBConnection.query: query=delete from score where score_id = 8410 
+2013-07-17 15:12:50 - DEBUG --> successfully connected to DB 
+2013-07-17 15:12:50 - DEBUG --> DBConnection.query: query=delete from score where score_id = 8412 
+2013-09-20 16:06:18 - DEBUG --> successfully connected to DB 
+2013-09-20 16:06:18 - DEBUG --> DBConnection.query: query=update score set score = 6 where score_id = 8550 
